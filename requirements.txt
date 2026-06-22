@@ -1,0 +1,8 @@
+# neo4j-agent-memory is a Neo4j Labs project (pre-1.0). Verify and pin the
+# current version before committing to one: https://pypi.org/project/neo4j-agent-memory/
+# The course uses the [all] extra so every framework integration is available.
+neo4j-agent-memory[all]
+
+# Load credentials from a local .env (the course examples read os.environ directly;
+# we add dotenv so the scripts are runnable without exporting vars by hand).
+python-dotenv
