@@ -1,8 +1,0 @@
-.env
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-.python-version
-.DS_Store
-.ipynb_checkpoints/
