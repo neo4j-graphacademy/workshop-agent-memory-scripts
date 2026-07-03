@@ -4,7 +4,7 @@ Companion code for the [Neo4j Agent Memory Workshop](https://graphacademy.neo4j.
 
 ## Setup
 
-Open this repository in a GitHub Codespace, or locally:
+Open this repository in a GitHub Codespace — the packages install automatically, leaving only the `.env` steps below. Or set up locally:
 
 ```bash
 pip install -r requirements.txt

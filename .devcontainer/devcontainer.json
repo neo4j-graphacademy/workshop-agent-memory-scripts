@@ -1,0 +1,28 @@
+{
+	"name": "Neo4j Agent Memory Workshop",
+	"image": "mcr.microsoft.com/devcontainers/python:3.14",
+	"postCreateCommand": "bash .devcontainer/post_create.sh",
+	"customizations": {
+		"codespaces": {
+			"openFiles": [
+				".devcontainer/README.md",
+				"example.env",
+				"test_environment.py"
+				]
+		},
+		"vscode": {
+			"settings": {
+				"python.createEnvironment.trigger": "off",
+				"workbench.editorAssociations": {
+					"*.md": "vscode.markdown.preview.editor"
+				}
+			},
+			"extensions": [
+				"ms-python.python",
+				"ms-python.debugpy",
+				"ms-toolsai.jupyter",
+				"neo4j-extensions.neo4j-for-vscode"
+				]
+		}
+	}
+}
