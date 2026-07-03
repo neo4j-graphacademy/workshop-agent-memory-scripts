@@ -4,11 +4,11 @@ Companion code for the [Neo4j Agent Memory Workshop](https://graphacademy.neo4j.
 
 ## Setup
 
-Open this repository in a GitHub Codespace — the packages install automatically, leaving only the `.env` steps below. Or set up locally:
+Open this repository in a GitHub Codespace — the packages install and an unfilled `.env` is created automatically, leaving only the last two steps below. Or set up locally:
 
 ```bash
 pip install -r requirements.txt
-pip install "neo4j-agent-memory[all]"
+pip install "neo4j-agent-memory[openai,pydantic-ai]"
 cp example.env .env   # then fill in your values
 python test_environment.py
 ```
@@ -25,7 +25,8 @@ Every check should pass or be skipped before you start. Your instructor provides
 | `agent.py` | Modules 2-5 | **The file you build.** Starts as a copy of `agent_no_memory.py`; the marked sections fill in one memory layer at a time until it matches the MVP |
 | `complete_memory_api.ipynb` | Modules 2-4 (optional) | The API tour notebook — every memory surface, one cell at a time |
 | `solutions/` | Modules 2-5 | `agent.py` as it should look at the end of each module |
-| `data/workshop-agent-memory.dump` | Setup | The course knowledge graph, for loading into your own instance |
+| `load_knowledge_graph.py` | Module 1 | Loads the course knowledge graph into your instance |
+| `data/` | Module 1 | The knowledge graph export that `load_knowledge_graph.py` reads |
 | `instructor/` | — | Instructor-only tooling; nothing in here is part of the lessons |
 
 ## The shape of the workshop

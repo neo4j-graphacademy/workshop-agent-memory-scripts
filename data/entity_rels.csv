@@ -1,0 +1,1445 @@
+source_label,source_name,type,target_label,target_name
+Concept,artificial intelligence systems,RELATED_TO,Technology,Generative AI
+Concept,large datasets,RELATED_TO,Technology,Generative AI
+Concept,patterns learned from data,RELATED_TO,Technology,Generative AI
+Concept,Large dataset,RELATED_TO,Technology,Generative AI
+Concept,Patterns,RELATED_TO,Technology,Generative AI
+Technology,Large Language Models (LLMs),RELATED_TO,Technology,Generative AI
+Concept,statistical patterns and correlations,RELATED_TO,Technology,Generative AI
+Concept,training data,RELATED_TO,Technology,Generative AI
+Technology,GenAI Frameworks,RELATED_TO,Technology,Generative AI
+Example,GPT,USED_IN,Technology,Generative AI
+Example,DALL-E,USED_IN,Technology,Generative AI
+Example,text,USED_IN,Technology,Generative AI
+Example,images,USED_IN,Technology,Generative AI
+Example,audio,USED_IN,Technology,Generative AI
+Example,code,USED_IN,Technology,Generative AI
+Example,Chatbots,USED_IN,Technology,Generative AI
+Example,Content creation,USED_IN,Technology,Generative AI
+Example,Image synthesis,USED_IN,Technology,Generative AI
+Example,Code generation,USED_IN,Technology,Generative AI
+Process,training on large datasets,PART_OF,Technology,Generative AI
+Process,using patterns learned from data to generate new output,PART_OF,Technology,Generative AI
+Process,Model training,PART_OF,Technology,Generative AI
+Process,Pattern learning,PART_OF,Technology,Generative AI
+Process,Content generation,PART_OF,Technology,Generative AI
+Technology,Generative AI,LEADS_TO,Benefit,creation of new content that resembles human-made data
+Process,using patterns learned from data to generate new output,LEADS_TO,Benefit,creation of new content that resembles human-made data
+Technology,Generative AI,HAS_CHALLENGE,Challenge,Lack of human-like intelligence
+Technology,Generative AI,RELATED_TO,Technology,Large Language Models (LLMs)
+Concept,training data,RELATED_TO,Technology,Large Language Models (LLMs)
+Concept,probabilistic continuation of instructions,RELATED_TO,Technology,Large Language Models (LLMs)
+Concept,Text Analysis,RELATED_TO,Technology,Large Language Models (LLMs)
+Example,Avoid Jargon at all costs.,USED_IN,Technology,Large Language Models (LLMs)
+Example,Tell me about the capital of Japan.,USED_IN,Technology,Large Language Models (LLMs)
+Process,text generation,PART_OF,Technology,Large Language Models (LLMs)
+Process,training on vast amounts of text data,PART_OF,Technology,Large Language Models (LLMs)
+Technology,Generative AI,HAS_CHALLENGE,Challenge,lack of understanding or comprehension
+Technology,Generative AI,LEADS_TO,Benefit,coherent and contextually relevant outputs
+Technology,Large Language Models (LLMs),RELATED_TO,Technology,text-generating models
+Technology,Large Language Models (LLMs),RELATED_TO,Technology,generative AI model
+Technology,Large Language Models (LLMs),LEADS_TO,Benefit,understand and generate human-like text
+Technology,Large Language Models (LLMs),LEADS_TO,Benefit,answering questions
+Technology,Large Language Models (LLMs),LEADS_TO,Benefit,summarizing data
+Technology,Large Language Models (LLMs),LEADS_TO,Benefit,analyzing text
+Concept,training data,RELATED_TO,Technology,LLM
+Concept,prompt,RELATED_TO,Technology,LLM
+Concept,instructions,RELATED_TO,Technology,LLM
+Concept,Precision,RELATED_TO,Technology,LLM
+Concept,Prompt,RELATED_TO,Technology,LLM
+Concept,Intent,RELATED_TO,Technology,LLM
+Concept,Access to Data,RELATED_TO,Technology,LLM
+Concept,Training data,RELATED_TO,Technology,LLM
+Concept,Accuracy,RELATED_TO,Technology,LLM
+Concept,Hallucination,RELATED_TO,Technology,LLM
+Concept,genuine understanding,RELATED_TO,Technology,LLM
+Concept,temperature,RELATED_TO,Technology,LLM
+Concept,design,RELATED_TO,Technology,LLM
+Concept,context,RELATED_TO,Technology,LLM
+Concept,Transparency,RELATED_TO,Technology,LLM
+Technology,GenAI Models,RELATED_TO,Technology,LLM
+Concept,Black box,RELATED_TO,Technology,LLM
+Concept,user query,RELATED_TO,Technology,LLM
+Technology,News agency chatbot,RELATED_TO,Technology,LLM
+Technology,Text to Cypher,RELATED_TO,Technology,LLM
+Concept,Context,RELATED_TO,Technology,LLM
+Technology,embedding model,RELATED_TO,Technology,LLM
+Technology,GraphRAG,RELATED_TO,Technology,LLM
+Technology,Graph,RELATED_TO,Technology,LLM
+Concept,data,RELATED_TO,Technology,LLM
+Technology,vector embeddings,RELATED_TO,Technology,LLM
+Concept,user's query,RELATED_TO,Technology,LLM
+Concept,Additional context,RELATED_TO,Technology,LLM
+Technology,vector retriever,RELATED_TO,Technology,LLM
+Technology,GraphRAG pipeline,RELATED_TO,Technology,LLM
+Technology,OpenAILLM,RELATED_TO,Technology,LLM
+Technology,RAG pipeline,RELATED_TO,Technology,LLM
+Concept,relevant context,RELATED_TO,Technology,LLM
+Concept,retrieved context,RELATED_TO,Technology,LLM
+Concept,generated response,RELATED_TO,Technology,LLM
+Concept,temperature parameter,RELATED_TO,Technology,LLM
+Concept,LLM configuration,RELATED_TO,Technology,LLM
+Concept,randomness,RELATED_TO,Technology,LLM
+Concept,transparency,RELATED_TO,Technology,LLM
+Technology,TextToCypherRetriever,RELATED_TO,Technology,LLM
+Technology,GLiNER,RELATED_TO,Technology,LLM
+Concept,types,RELATED_TO,Technology,LLM
+Example,"Sequence continuation example: ""Continue this sequence - A B C"" -> ""D E F""",USED_IN,Technology,LLM
+Example,What is an LLM? Give the response using simple language avoiding jargon.,USED_IN,Technology,LLM
+Example,What is the capital of Japan?,USED_IN,Technology,LLM
+Example,"You are a friendly travel agent helping a customer to choose a holiday destination. Your readers may have English as a second language, so use simple terms and avoid colloquialisms. Avoid Jargon at all costs. Tell me about the capital of Japan.",USED_IN,Technology,LLM
+Example,Internet,USED_IN,Technology,LLM
+Example,Books,USED_IN,Technology,LLM
+Example,Publicly available text,USED_IN,Technology,LLM
+Example,"""The moon is made of cheese.""",USED_IN,Technology,LLM
+Example,LLM-generated legal brief,USED_IN,Technology,LLM
+Process,providing a prompt to an LLM,PART_OF,Technology,LLM
+Process,Using precision in task description,PART_OF,Technology,LLM
+Process,Training,PART_OF,Technology,LLM
+Process,Fine-tuning,PART_OF,Technology,LLM
+Process,setting a higher temperature,PART_OF,Technology,LLM
+Process,setting a lower temperature,PART_OF,Technology,LLM
+Process,reduce the temperature,PART_OF,Technology,LLM
+Process,Grounding,PART_OF,Technology,LLM
+Process,Use relevant results as context,PART_OF,Technology,LLM
+Process,Chunk the data,PART_OF,Technology,LLM
+Process,Vectorize the data,PART_OF,Technology,LLM
+Process,Pass the data to an LLM,PART_OF,Technology,LLM
+Process,create and configure the LLM,PART_OF,Technology,LLM
+Process,pass the retrieved data to the LLM,PART_OF,Technology,LLM
+Process,modifying the temperature of the LLM,PART_OF,Technology,LLM
+Resource,llm-prompt-interaction.svg,CITES,Technology,LLM
+Resource,Reuters article,CITES,Technology,LLM
+Resource,Reuters article on lawyers sanctioned for fake ChatGPT cases,CITES,Technology,LLM
+Resource,Next lesson,CITES,Technology,LLM
+Resource,genai_fundamentals/text2cypher_rag.py,CITES,Technology,LLM
+Resource,text2cypher_rag.py,CITES,Technology,LLM
+Technology,LLM,LEADS_TO,Benefit,Relevant and accurate outputs
+Process,Using precision in task description,LEADS_TO,Benefit,Relevant and accurate outputs
+Process,Using precision in task description,LEADS_TO,Benefit,Model understands the intent
+Concept,Prompt,HAS_CHALLENGE,Challenge,Jargon
+Technology,Large Language Models (LLMs),HAS_CHALLENGE,Challenge,hallucination
+Technology,LLM,HAS_CHALLENGE,Challenge,hallucination
+Technology,LLMs,HAS_CHALLENGE,Challenge,hallucination
+Technology,GenAI models,HAS_CHALLENGE,Challenge,hallucination
+Concept,training data,RELATED_TO,Technology,LLMs
+Concept,limitations,RELATED_TO,Technology,LLMs
+Technology,GenAI,RELATED_TO,Technology,LLMs
+Concept,predictive text machines,RELATED_TO,Technology,LLMs
+Concept,patterns and relationships from text,RELATED_TO,Technology,LLMs
+Concept,Temperature,RELATED_TO,Technology,LLMs
+Concept,Randomness,RELATED_TO,Technology,LLMs
+Concept,context,RELATED_TO,Technology,LLMs
+Concept,Access to data,RELATED_TO,Technology,LLMs
+Concept,fixed knowledge cutoff,RELATED_TO,Technology,LLMs
+Concept,recent events information,RELATED_TO,Technology,LLMs
+Concept,organization-specific information,RELATED_TO,Technology,LLMs
+Technology,Prompting,RELATED_TO,Technology,LLMs
+Technology,Retrieval-Augmented Generation (RAG),RELATED_TO,Technology,LLMs
+Technology,Knowledge graphs,RELATED_TO,Technology,LLMs
+Technology,GraphRAG,RELATED_TO,Technology,LLMs
+Concept,user intent,RELATED_TO,Technology,LLMs
+Technology,Neo4j GenAI Frameworks,RELATED_TO,Technology,LLMs
+Example,Including a relevant stock market report in the prompt when asking the model to summarize a company's performance,USED_IN,Technology,LLMs
+Example,statistics or data points,USED_IN,Technology,LLMs
+Process,providing context in prompts,PART_OF,Technology,LLMs
+Process,Anchoring the model's response to supplied facts and details,PART_OF,Technology,LLMs
+Process,provide data in the prompt,PART_OF,Technology,LLMs
+Resource,GraphAcademy Building Knowledge Graphs with LLMs course,CITES,Technology,LLMs
+Technology,LLMs,HAS_CHALLENGE,Challenge,access to data
+Technology,LLMs,HAS_CHALLENGE,Challenge,Caution
+Technology,GenAI,HAS_CHALLENGE,Challenge,Caution
+Technology,LLMs,HAS_CHALLENGE,Challenge,Access to Data
+Concept,Training data,HAS_CHALLENGE,Challenge,Questionable quality or incorrect data
+Concept,Training data,HAS_CHALLENGE,Challenge,Static and potentially outdated data
+Technology,LLM,HAS_CHALLENGE,Challenge,Lack of access to new or private information
+Technology,LLM,HAS_CHALLENGE,Challenge,Inaccurate responses
+Technology,LLM,HAS_CHALLENGE,Challenge,Misleading or baseless content
+Technology,LLM,LEADS_TO,Benefit,Human-like text
+Process,Fine-tuning,LEADS_TO,Benefit,Helpful responses
+Technology,LLMs,HAS_CHALLENGE,Challenge,Lack of genuine understanding
+Technology,LLMs,HAS_CHALLENGE,Challenge,Lack of ethical judgment
+Concept,Temperature,HAS_CHALLENGE,Challenge,False statements
+Process,setting a higher temperature,LEADS_TO,Benefit,more diverse and creative outputs
+Process,setting a lower temperature,LEADS_TO,Benefit,consistent and precise responses
+Technology,LLM,HAS_CHALLENGE,Challenge,false statements
+Technology,LLM,HAS_CHALLENGE,Challenge,fictitious case citations
+Process,reduce the temperature,LEADS_TO,Benefit,quick fix
+Process,providing context in prompts,LEADS_TO,Benefit,more accurate and relevant responses
+Technology,LLM,HAS_CHALLENGE,Challenge,missing required information
+Technology,LLM,RELATED_TO,Technology,GenAI Models
+Concept,Transparency,RELATED_TO,Technology,GenAI Models
+Concept,Black box,RELATED_TO,Technology,GenAI Models
+Technology,GenAI Models,HAS_CHALLENGE,Challenge,black-box nature
+Process,providing context in prompts,LEADS_TO,Benefit,reduced hallucinations
+Technology,GenAI Models,HAS_CHALLENGE,Challenge,Difficulty deciphering decision-making processes
+Technology,LLM,HAS_CHALLENGE,Challenge,Unable to provide sources for output
+Technology,LLM,HAS_CHALLENGE,Challenge,Unable to explain reasoning
+Concept,context,RELATED_TO,Technology,GenAI models
+Technology,LLM,HAS_CHALLENGE,Challenge,Hallucinations
+Technology,LLMs,HAS_CHALLENGE,Challenge,Hallucinations
+Technology,GenAI models,HAS_CHALLENGE,Challenge,limited access to data
+Technology,GenAI models,HAS_CHALLENGE,Challenge,biased outputs
+Technology,GenAI models,HAS_CHALLENGE,Challenge,lack of context
+Technology,GenAI models,HAS_CHALLENGE,Challenge,lack of logical coherence
+Process,providing context to GenAI models,LEADS_TO,Benefit,improved accuracy of responses
+Process,Anchoring the model's response to supplied facts and details,LEADS_TO,Benefit,More accurate summaries
+Process,Anchoring the model's response to supplied facts and details,LEADS_TO,Benefit,Reduced hallucinations
+Process,Supplying context,LEADS_TO,Benefit,Reduced hallucinations
+Technology,LLMs,HAS_CHALLENGE,Challenge,limited access to real-time data
+Technology,LLMs,HAS_CHALLENGE,Challenge,limited access to proprietary data
+Process,provide data in the prompt,LEADS_TO,Benefit,up-to-date responses
+Process,provide data in the prompt,LEADS_TO,Benefit,relevant responses for a particular use case
+Concept,Supplying context,RELATED_TO,Technology,LLM prompting
+Example,Summarizing a company's performance using a stock market report and annual results,USED_IN,Technology,LLM prompting
+Process,Providing statistics or data points in the prompt,PART_OF,Technology,LLM prompting
+Technology,LLM prompting,LEADS_TO,Benefit,Useful facts in the model response
+Process,Providing statistics or data points in the prompt,LEADS_TO,Benefit,Including a specific profit figure in the response
+Process,Supplying context,PART_OF,Technology,Prompting
+Process,Supplying context,LEADS_TO,Benefit,More accurate responses
+Process,Graph traversal to find related nodes,LEADS_TO,Benefit,More accurate responses
+Process,Supplying context,LEADS_TO,Benefit,More relevant responses
+Process,Supplying context,LEADS_TO,Benefit,More trustworthy responses
+Technology,LLMs,HAS_CHALLENGE,Challenge,Lack of access to data
+Process,Supplying context,LEADS_TO,Benefit,Compensating for lack of access to data
+Process,providing context in prompts,LEADS_TO,Benefit,improved accuracy of LLM responses
+Concept,additional context,RELATED_TO,Technology,RAG (Retrieval-Augmented Generation)
+Process,providing context in prompts,PART_OF,Technology,RAG (Retrieval-Augmented Generation)
+Concept,"Relevant, up-to-date information",RELATED_TO,Technology,Retrieval-Augmented Generation (RAG)
+Concept,External sources,RELATED_TO,Technology,Retrieval-Augmented Generation (RAG)
+Concept,user query,RELATED_TO,Technology,Retrieval-Augmented Generation (RAG)
+Concept,retriever,RELATED_TO,Technology,Retrieval-Augmented Generation (RAG)
+Concept,external data sources,RELATED_TO,Technology,Retrieval-Augmented Generation (RAG)
+Example,documents,USED_IN,Technology,Retrieval-Augmented Generation (RAG)
+Example,databases,USED_IN,Technology,Retrieval-Augmented Generation (RAG)
+Example,knowledge graphs,USED_IN,Technology,Retrieval-Augmented Generation (RAG)
+Process,RAG process,PART_OF,Technology,Retrieval-Augmented Generation (RAG)
+Process,Understanding the User Query,PART_OF,Technology,Retrieval-Augmented Generation (RAG)
+Process,Information Retrieval,PART_OF,Technology,Retrieval-Augmented Generation (RAG)
+Process,Response Generation,PART_OF,Technology,Retrieval-Augmented Generation (RAG)
+Technology,Retrieval-Augmented Generation (RAG),LEADS_TO,Benefit,More accurate and tailored answers
+Technology,Retrieval-Augmented Generation (RAG),HAS_CHALLENGE,Challenge,Required information not present in the model's training data
+Technology,Retriever,RELATED_TO,Technology,RAG
+Technology,Language model,RELATED_TO,Technology,RAG
+Concept,contextual awareness,RELATED_TO,Technology,RAG
+Concept,"real, up-to-date information",RELATED_TO,Technology,RAG
+Concept,Data sources,RELATED_TO,Technology,RAG
+Concept,data sources,RELATED_TO,Technology,RAG
+Concept,vectors,RELATED_TO,Technology,RAG
+Concept,embeddings,RELATED_TO,Technology,RAG
+Concept,question vector,RELATED_TO,Technology,RAG
+Concept,similarity,RELATED_TO,Technology,RAG
+Example,"""What’s the latest news on the Olympics?""",USED_IN,Technology,RAG
+Example,Documents,USED_IN,Technology,RAG
+Example,APIs,USED_IN,Technology,RAG
+Example,Knowledge Graphs,USED_IN,Technology,RAG
+Process,RAG process,PART_OF,Technology,RAG
+Process,Response Generation,PART_OF,Technology,RAG
+Process,retrieving information,PART_OF,Technology,RAG
+Process,combining retrieved information with the original question,PART_OF,Technology,RAG
+Process,sending the combined input to a language model,PART_OF,Technology,RAG
+Process,Understanding user queries,PART_OF,Technology,RAG
+Process,Retrieving relevant information,PART_OF,Technology,RAG
+Process,Generating a response using the retrieved information,PART_OF,Technology,RAG
+Process,create an embedding of the question,PART_OF,Technology,RAG
+Process,compare the question vector to the vectors of the indexed data,PART_OF,Technology,RAG
+Process,score results based on similarity,PART_OF,Technology,RAG
+Resource,llm-rag-process diagram,CITES,Technology,RAG
+Concept,user query,RELATED_TO,Technology,Retriever
+Concept,external data sources,RELATED_TO,Technology,Retriever
+Concept,Retrieved information,RELATED_TO,Technology,Retriever
+Concept,User query,RELATED_TO,Technology,Retriever
+Concept,relevant information,RELATED_TO,Technology,Retriever
+Concept,unstructured input,RELATED_TO,Technology,Retriever
+Technology,Neo4j,RELATED_TO,Technology,Retriever
+Concept,structured data,RELATED_TO,Technology,Retriever
+Technology,Full-text search,RELATED_TO,Technology,Retriever
+Technology,Vector search,RELATED_TO,Technology,Retriever
+Technology,Text to Cypher,RELATED_TO,Technology,Retriever
+Concept,query,RELATED_TO,Technology,Retriever
+Technology,moviePlots vector index,RELATED_TO,Technology,Retriever
+Technology,Vector retriever,RELATED_TO,Technology,Retriever
+Technology,Embedder,RELATED_TO,Technology,Retriever
+Concept,User queries,RELATED_TO,Technology,Retriever
+Concept,Similar movies,RELATED_TO,Technology,Retriever
+Concept,retrieval query,RELATED_TO,Technology,Retriever
+Technology,Text to Cypher retriever,RELATED_TO,Technology,Retriever
+Concept,vector index name,RELATED_TO,Technology,Retriever
+Technology,Graph schema,RELATED_TO,Technology,Retriever
+Example,moviePlots,USED_IN,Technology,Retriever
+Process,searching and retrieving relevant information,PART_OF,Technology,Retriever
+Process,Create a retriever,PART_OF,Technology,Retriever
+Process,Use the retriever to search for similar movies,PART_OF,Technology,Retriever
+Process,Parse the results,PART_OF,Technology,Retriever
+Process,Search,PART_OF,Technology,Retriever
+Resource,genai-fundamentals/vector_retriever.py,CITES,Technology,Retriever
+Resource,vector_cypher_rag.py,CITES,Technology,Retriever
+Concept,Prompt,RELATED_TO,Technology,Language model
+Process,Response Generation,LEADS_TO,Benefit,More accurate and relevant response
+Technology,RAG,RELATED_TO,Technology,language model
+Technology,RAG,RELATED_TO,Technology,chatbot
+Technology,knowledge graph,RELATED_TO,Technology,chatbot
+Concept,historical context,RELATED_TO,Technology,chatbot
+Technology,document database,RELATED_TO,Technology,chatbot
+Technology,RAG,RELATED_TO,Technology,news API
+Concept,data sources,RELATED_TO,Technology,news API
+Example,news agency chatbot,USED_IN,Technology,news API
+Process,retrieve the latest articles or headlines,PART_OF,Technology,news API
+Technology,RAG,LEADS_TO,Benefit,contextually aware responses
+Technology,RAG,LEADS_TO,Benefit,"grounded responses using real, up-to-date information"
+Technology,News agency chatbot,RELATED_TO,Technology,News API
+Example,What's the latest news on the Olympics?,USED_IN,Technology,News agency chatbot
+Process,Grounding,LEADS_TO,Benefit,Improved response accuracy
+Technology,News agency chatbot,LEADS_TO,Benefit,Timely and accurate responses
+Concept,user query,RELATED_TO,Technology,Vector RAG
+Technology,semantic search,RELATED_TO,Technology,Vector RAG
+Technology,vector indexes,RELATED_TO,Technology,Vector RAG
+Concept,retrieved context,RELATED_TO,Technology,Vector RAG
+Concept,retriever_config,RELATED_TO,Technology,Vector RAG
+Process,Search,PART_OF,Technology,Vector RAG
+Resource,vector_rag.py,CITES,Technology,Vector RAG
+Technology,LLM,RELATED_TO,Technology,Retrieval Augmented Generation (RAG)
+Technology,Vector RAG,RELATED_TO,Technology,Retrieval Augmented Generation (RAG)
+Technology,retrievers,RELATED_TO,Technology,Retrieval Augmented Generation (RAG)
+Technology,Full-text search,RELATED_TO,Technology,Neo4j
+Technology,Vector search,RELATED_TO,Technology,Neo4j
+Technology,Text to Cypher,RELATED_TO,Technology,Neo4j
+Technology,Vector Indexes,RELATED_TO,Technology,Neo4j
+Technology,vector index,RELATED_TO,Technology,Neo4j
+Technology,GraphRAG,RELATED_TO,Technology,Neo4j
+Technology,Vector Index,RELATED_TO,Technology,Neo4j
+Concept,graph database,RELATED_TO,Technology,Neo4j
+Concept,relationships,RELATED_TO,Technology,Neo4j
+Technology,full text search,RELATED_TO,Technology,Neo4j
+Concept,graph-based model,RELATED_TO,Technology,Neo4j
+Concept,nodes,RELATED_TO,Technology,Neo4j
+Technology,neo4j-graphrag,RELATED_TO,Technology,Neo4j
+Concept,knowledge graphs,RELATED_TO,Technology,Neo4j
+Concept,GraphRAG techniques,RELATED_TO,Technology,Neo4j
+Technology,Vector Retriever,RELATED_TO,Technology,Neo4j
+Technology,embedder,RELATED_TO,Technology,Neo4j
+Concept,Graph,RELATED_TO,Technology,Neo4j
+Technology,GenAI Frameworks,RELATED_TO,Technology,Neo4j
+Technology,GenAI frameworks,RELATED_TO,Technology,Neo4j
+Technology,LangChain,RELATED_TO,Technology,Neo4j
+Concept,vector store,RELATED_TO,Technology,Neo4j
+Concept,knowledge graph,RELATED_TO,Technology,Neo4j
+Concept,RAG,RELATED_TO,Technology,Neo4j
+Technology,LlamaIndex,RELATED_TO,Technology,Neo4j
+Technology,Spring AI,RELATED_TO,Technology,Neo4j
+Technology,Langchain4j,RELATED_TO,Technology,Neo4j
+Technology,Haystack,RELATED_TO,Technology,Neo4j
+Technology,Semantic Kernel,RELATED_TO,Technology,Neo4j
+Technology,DSPy,RELATED_TO,Technology,Neo4j
+Technology,Neo4j GenAI Frameworks,RELATED_TO,Technology,Neo4j
+Concept,Knowledge Graph,RELATED_TO,Technology,Neo4j
+Concept,Graph Database,RELATED_TO,Technology,Neo4j
+Concept,graph data modeling,RELATED_TO,Technology,Neo4j
+Example,movie recommendations,USED_IN,Technology,Neo4j
+Example,Session,USED_IN,Technology,Neo4j
+Example,Cypher,USED_IN,Technology,Neo4j
+Process,using a combination of vector and graph queries,PART_OF,Technology,Neo4j
+Process,importing data,PART_OF,Technology,Neo4j
+Process,connect to Neo4j,PART_OF,Technology,Neo4j
+Process,Configuration,PART_OF,Technology,Neo4j
+Process,Data Modeling,PART_OF,Technology,Neo4j
+Process,setup,PART_OF,Technology,Neo4j
+Process,Neo4j database operates by Neo4j,PART_OF,Technology,Neo4j
+Process,Data modeling,PART_OF,Technology,Neo4j
+Process,extract,PART_OF,Technology,Neo4j
+Resource,full-text indexes,CITES,Technology,Neo4j
+Resource,neo4j-google-knowledge-graph.svg,CITES,Technology,Neo4j
+Resource,GraphAcademy Importing Data Fundamentals course,CITES,Technology,Neo4j
+Resource,Using Neo4j with Python,CITES,Technology,Neo4j
+Resource,vector_cypher_rag.py,CITES,Technology,Neo4j
+Resource,genai_fundamentals/text2cypher_rag.py,CITES,Technology,Neo4j
+Resource,memory,CITES,Technology,Neo4j
+Resource,text2cypher_rag.py,CITES,Technology,Neo4j
+Resource,Memory,CITES,Technology,Neo4j
+Resource,Neo4j Documentation,CITES,Technology,Neo4j
+Resource,MemoryClient,CITES,Technology,Neo4j
+Resource,neo4j-agent-memory,CITES,Technology,Neo4j
+Resource,conversation storage,CITES,Technology,Neo4j
+Resource,Open Neo4j Browser,CITES,Technology,Neo4j
+Resource,Neo4j Agent Memory Service,CITES,Technology,Neo4j
+Resource,OpenAI key,CITES,Technology,Neo4j
+Resource,Neo4j Graph Database Documentation,CITES,Technology,Neo4j
+Concept,vectors,RELATED_TO,Technology,semantic search
+Concept,embeddings,RELATED_TO,Technology,semantic search
+Resource,Introduction to Vector Indexes and Unstructured Data,CITES,Technology,semantic search
+Resource,schema,CITES,Technology,semantic search
+Technology,Retriever,RELATED_TO,Technology,Vector search
+Concept,User query,RELATED_TO,Technology,Vector search
+Technology,Full text search,RELATED_TO,Technology,Vector search
+Concept,Query,RELATED_TO,Technology,Vector search
+Process,Score related data by relevance,PART_OF,Technology,Vector search
+Technology,LLMs,RELATED_TO,Technology,Text to Cypher
+Concept,user query,RELATED_TO,Technology,Text to Cypher
+Concept,natural language,RELATED_TO,Technology,Text to Cypher
+Concept,information needs,RELATED_TO,Technology,Text to Cypher
+Concept,"complex searches, aggregations, and traversals",RELATED_TO,Technology,Text to Cypher
+Concept,graph schema,RELATED_TO,Technology,Text to Cypher
+Concept,advanced graph querying,RELATED_TO,Technology,Text to Cypher
+Example,aggregations,USED_IN,Technology,Text to Cypher
+Example,traversals,USED_IN,Technology,Text to Cypher
+Process,translating natural language into Cypher queries,PART_OF,Technology,Text to Cypher
+Process,interpreting user intent and generating precise graph queries,PART_OF,Technology,Text to Cypher
+Process,passing the user's query and the graph schema to an LLM,PART_OF,Technology,Text to Cypher
+Process,generating a Cypher query,PART_OF,Technology,Text to Cypher
+Process,executing the Cypher query against the graph database,PART_OF,Technology,Text to Cypher
+Concept,Context,RELATED_TO,Technology,Embeddings
+Concept,vectors,RELATED_TO,Technology,Embeddings
+Concept,lower dimensionality,RELATED_TO,Technology,Embeddings
+Concept,higher dimensionality,RELATED_TO,Technology,Embeddings
+Concept,Vectors,RELATED_TO,Technology,Embeddings
+Concept,Numerical representations,RELATED_TO,Technology,Embeddings
+Concept,Dimensions in a vector,RELATED_TO,Technology,Embeddings
+Concept,Semantic aspects,RELATED_TO,Technology,Embeddings
+Concept,Overall meaning,RELATED_TO,Technology,Embeddings
+Concept,Embedding models,RELATED_TO,Technology,Embeddings
+Technology,text-embedding-ada-002,RELATED_TO,Technology,Embeddings
+Concept,vector embedding,RELATED_TO,Technology,Embeddings
+Technology,API endpoints,RELATED_TO,Technology,Embeddings
+Technology,Semantic search systems,RELATED_TO,Technology,Embeddings
+Concept,movie plots,RELATED_TO,Technology,Embeddings
+Concept,plotEmbedding property,RELATED_TO,Technology,Embeddings
+Concept,Movie nodes,RELATED_TO,Technology,Embeddings
+Technology,Cypher,RELATED_TO,Technology,Embeddings
+Concept,Movie plot embeddings,RELATED_TO,Technology,Embeddings
+Concept,Similarity score,RELATED_TO,Technology,Embeddings
+Technology,genai.vector.encode,RELATED_TO,Technology,Embeddings
+Technology,Embedding and vector approach,RELATED_TO,Technology,Embeddings
+Example,Documents,USED_IN,Technology,Embeddings
+Example,apple,USED_IN,Technology,Embeddings
+Example,"3d vector coordinates (1,1,1) and (1,2,3)",USED_IN,Technology,Embeddings
+Example,Images,USED_IN,Technology,Embeddings
+Example,Text,USED_IN,Technology,Embeddings
+Example,Audio,USED_IN,Technology,Embeddings
+Example,"word ""apple""",USED_IN,Technology,Embeddings
+Example,bank,USED_IN,Technology,Embeddings
+Example,river bank,USED_IN,Technology,Embeddings
+Example,savings bank,USED_IN,Technology,Embeddings
+Example,Other data types,USED_IN,Technology,Embeddings
+Example,Toy Story Cypher query,USED_IN,Technology,Embeddings
+Example,Toy Story movie plot,USED_IN,Technology,Embeddings
+Process,using lower dimensionality,PART_OF,Technology,Embeddings
+Process,convert a chunk of text into a vector embedding,PART_OF,Technology,Embeddings
+Process,Embedding entire sentences or paragraphs,PART_OF,Technology,Embeddings
+Process,View the plot embedding,PART_OF,Technology,Embeddings
+Process,Query movies where plotEmbedding is not null,PART_OF,Technology,Embeddings
+Process,Generate embeddings,PART_OF,Technology,Embeddings
+Resource,Graph Academy Introduction to Vector Indexes and Unstructured Data course,CITES,Technology,Embeddings
+Technology,Retrieval Augmented Generation (RAG),HAS_CHALLENGE,Challenge,understanding what the user is asking for
+Concept,data sources,RELATED_TO,Technology,knowledge graph
+Concept,historical context,RELATED_TO,Technology,knowledge graph
+Concept,relationships between entities,RELATED_TO,Technology,knowledge graph
+Concept,organizing principles,RELATED_TO,Technology,knowledge graph
+Concept,information extraction,RELATED_TO,Technology,knowledge graph
+Example,news agency chatbot,USED_IN,Technology,knowledge graph
+Process,understand the relationships between different news topics,PART_OF,Technology,knowledge graph
+Process,Create the graph by transforming and importing data,PART_OF,Technology,knowledge graph
+Technology,knowledge graph,LEADS_TO,Benefit,more in-depth and contextual responses
+Process,"store and retrieve articles, reports, or other textual data",PART_OF,Technology,document database
+Technology,document database,LEADS_TO,Benefit,answer user queries
+Process,"store and retrieve articles, reports, or other textual data",LEADS_TO,Benefit,answer user queries
+Concept,Organizing principles,RELATED_TO,Technology,Knowledge graphs
+Technology,Structured data,RELATED_TO,Technology,Knowledge graphs
+Concept,Unstructured sources,RELATED_TO,Technology,Knowledge graphs
+Technology,Graphs,RELATED_TO,Technology,Knowledge graphs
+Technology,Relational database,RELATED_TO,Technology,Knowledge graphs
+Technology,CSV,RELATED_TO,Technology,Knowledge graphs
+Process,Knowledge graph construction,PART_OF,Technology,Knowledge graphs
+Process,Capturing and organizing important domain-specific or proprietary company information,PART_OF,Technology,Knowledge graphs
+Process,Identify the sources,PART_OF,Technology,Knowledge graphs
+Resource,GraphAcademy,CITES,Technology,Knowledge graphs
+Resource,GraphAcademy Building Knowledge Graphs with LLMs course,CITES,Technology,Knowledge graphs
+Concept,word or phrase,RELATED_TO,Technology,embeddings
+Technology,search context,RELATED_TO,Technology,embeddings
+Technology,embedding model,RELATED_TO,Technology,embeddings
+Concept,vector,RELATED_TO,Technology,embeddings
+Technology,vector RAG,RELATED_TO,Technology,embeddings
+Example,apple,USED_IN,Technology,embeddings
+Technology,LLM,RELATED_TO,Technology,vector search
+Technology,embeddings,RELATED_TO,Technology,vector search
+Technology,GraphRAG,RELATED_TO,Technology,vector search
+Concept,movie plots,RELATED_TO,Technology,vector search
+Concept,semantic similarity,RELATED_TO,Technology,vector search
+Technology,Cypher query,RELATED_TO,Technology,vector search
+Technology,Full Text Search,RELATED_TO,Technology,vector search
+Technology,advanced retriever,RELATED_TO,Technology,vector search
+Concept,travelling to other planets,RELATED_TO,Technology,vector search
+Concept,action genre,RELATED_TO,Technology,vector search
+Concept,user rating,RELATED_TO,Technology,vector search
+Concept,vector similarity score,RELATED_TO,Technology,vector search
+Example,Aliens,USED_IN,Technology,vector search
+Process,finding similar nodes with vector search,PART_OF,Technology,vector search
+Process,run the retrieval query,PART_OF,Technology,vector search
+Technology,embeddings,LEADS_TO,Benefit,retrieve relevant information
+Technology,vector search,LEADS_TO,Benefit,retrieve relevant information
+Technology,Retrieval Augmented Generation (RAG),HAS_CHALLENGE,Challenge,finding the correct information to pass to the LLM
+Technology,semantic search,LEADS_TO,Benefit,finding relevant information from a user's question
+Technology,vector indexes,LEADS_TO,Benefit,finding relevant information from a user's question
+Concept,intent,RELATED_TO,Technology,Semantic search
+Concept,contextual meaning,RELATED_TO,Technology,Semantic search
+Concept,Context,RELATED_TO,Technology,Semantic search
+Concept,Perceived intent,RELATED_TO,Technology,Semantic search
+Technology,Vectors,RELATED_TO,Technology,Semantic search
+Concept,User intent,RELATED_TO,Technology,Semantic search
+Concept,Semantic similarity,RELATED_TO,Technology,Semantic search
+Technology,Semantic search,RELATED_TO,Technology,Traditional keyword search
+Concept,individual keywords,RELATED_TO,Technology,Traditional keyword search
+Concept,exact-match keywords,RELATED_TO,Technology,Traditional keyword search
+Concept,proximity-based algorithms,RELATED_TO,Technology,Traditional keyword search
+Example,apple,USED_IN,Technology,Traditional keyword search
+Technology,Embeddings,RELATED_TO,Technology,Vectors
+Concept,Data,RELATED_TO,Technology,Vectors
+Concept,Distance,RELATED_TO,Technology,Vectors
+Concept,Angle,RELATED_TO,Technology,Vectors
+Technology,Embedding and vector approach,RELATED_TO,Technology,Vectors
+Concept,Contextual or meaning-based questions,RELATED_TO,Technology,Vectors
+Concept,Fuzzy or vague queries,RELATED_TO,Technology,Vectors
+Concept,Broad or open-ended questions,RELATED_TO,Technology,Vectors
+Concept,Complex queries with multiple concepts,RELATED_TO,Technology,Vectors
+Concept,Highly specific or fact-based questions,RELATED_TO,Technology,Vectors
+Concept,Numerical or exact-match queries,RELATED_TO,Technology,Vectors
+Concept,Boolean or logical queries,RELATED_TO,Technology,Vectors
+Concept,Ambiguous or unclear queries,RELATED_TO,Technology,Vectors
+Example,"Vector [1, 2, 3]",USED_IN,Technology,Vectors
+Technology,Semantic search,LEADS_TO,Benefit,Tailored results
+Concept,Dimensionality,RELATED_TO,Technology,Vector
+Example,"[1, 2, 3]",USED_IN,Technology,Vector
+Technology,Vector,LEADS_TO,Benefit,"Can represent many different types of data, including text, images, and audio"
+Technology,Vector,HAS_CHALLENGE,Challenge,Higher dimensionality is more computationally expensive
+Technology,Embeddings,RELATED_TO,Technology,machine learning
+Technology,Embeddings,RELATED_TO,Technology,NLP
+Process,using lower dimensionality,LEADS_TO,Benefit,faster computation
+Process,using lower dimensionality,LEADS_TO,Benefit,cheaper computation
+Concept,lower dimensionality,HAS_CHALLENGE,Challenge,less nuance
+Concept,higher dimensionality,HAS_CHALLENGE,Challenge,computational expense
+Technology,Embeddings,RELATED_TO,Technology,LLM algorithms
+Concept,vector,RELATED_TO,Technology,search context
+Technology,embeddings,LEADS_TO,Benefit,conveying overall meaning
+Technology,search context,LEADS_TO,Benefit,most relevant results
+Technology,RAG,RELATED_TO,Technology,embedding model
+Concept,embedding,RELATED_TO,Technology,embedding model
+Concept,vector representation,RELATED_TO,Technology,embedding model
+Concept,question vector,RELATED_TO,Technology,embedding model
+Concept,similarity,RELATED_TO,Technology,embedding model
+Concept,indexed data,RELATED_TO,Technology,embedding model
+Technology,Embedder,RELATED_TO,Technology,embedding model
+Example,apple,USED_IN,Technology,embedding model
+Example,movie plots,USED_IN,Technology,embedding model
+Process,creating a vector representation of the question,PART_OF,Technology,embedding model
+Process,comparing the question vector to the vectors of the indexed data,PART_OF,Technology,embedding model
+Process,scoring results based on similarity,PART_OF,Technology,embedding model
+Technology,moviePlots vector index,RELATED_TO,Technology,text-embedding-ada-002
+Concept,embedding model,RELATED_TO,Technology,text-embedding-ada-002
+Technology,Semantic search systems,LEADS_TO,Benefit,Understanding user intent
+Concept,Semantic search,RELATED_TO,Technology,Vector-based RAG
+Technology,Embedding model,RELATED_TO,Technology,Vector-based RAG
+Concept,Vector representation,RELATED_TO,Technology,Embedding model
+Concept,Source data,RELATED_TO,Technology,Embedding model
+Technology,Vector-based RAG,LEADS_TO,Benefit,Contextually relevant results
+Technology,Embeddings,RELATED_TO,Technology,Vector Indexes
+Concept,vectors,RELATED_TO,Technology,Vector Indexes
+Concept,embeddings,RELATED_TO,Technology,Vector Indexes
+Technology,Cypher,RELATED_TO,Technology,Vector Indexes
+Technology,db.index.vector.queryNodes(),RELATED_TO,Technology,Vector Indexes
+Technology,moviePlots index,RELATED_TO,Technology,Vector Indexes
+Example,moviePlots vector index,USED_IN,Technology,Vector Indexes
+Process,compare embeddings,PART_OF,Technology,Vector Indexes
+Process,Querying Vector Indexes,PART_OF,Technology,Vector Indexes
+Resource,Introduction to Vector Indexes and Unstructured Data,CITES,Technology,Vector Indexes
+Resource,Graph Academy Introduction to Vector Indexes and Unstructured Data course,CITES,Technology,Vector Indexes
+Resource,Neo4j Cypher Manual - Vector Indexes,CITES,Technology,Vector Indexes
+Technology,RAG,RELATED_TO,Technology,vector index
+Technology,embedding model,RELATED_TO,Technology,vector index
+Concept,vector,RELATED_TO,Technology,vector index
+Concept,embedding,RELATED_TO,Technology,vector index
+Concept,vector representation,RELATED_TO,Technology,vector index
+Technology,moviePlots,RELATED_TO,Technology,vector index
+Technology,plotEmbedding property,RELATED_TO,Technology,vector index
+Concept,similarity score,RELATED_TO,Technology,vector index
+Concept,query,RELATED_TO,Technology,vector index
+Technology,moviePlots vector index,RELATED_TO,Technology,vector index
+Technology,retriever,RELATED_TO,Technology,vector index
+Process,finding the closest embedding value,PART_OF,Technology,vector index
+Technology,Vector Indexes,LEADS_TO,Benefit,find similar data
+Process,compare embeddings,LEADS_TO,Benefit,find similar data
+Process,comparing the question vector to the vectors of the indexed data,LEADS_TO,Benefit,most relevant results used as context for the LLM
+Process,scoring results based on similarity,LEADS_TO,Benefit,most relevant results used as context for the LLM
+Concept,movies,RELATED_TO,Technology,recommendations database
+Concept,actors,RELATED_TO,Technology,recommendations database
+Concept,user ratings,RELATED_TO,Technology,recommendations database
+Concept,movie plot,RELATED_TO,Technology,recommendations database
+Technology,Plot Embeddings,RELATED_TO,Technology,recommendations database
+Example,Movie Plot Example,USED_IN,Technology,recommendations database
+Concept,context,RELATED_TO,Technology,GraphRAG
+Technology,Text to Cypher,RELATED_TO,Technology,GraphRAG
+Concept,relevant and useful context,RELATED_TO,Technology,GraphRAG
+Concept,relationships and structure within a graph,RELATED_TO,Technology,GraphRAG
+Concept,Graphs,RELATED_TO,Technology,GraphRAG
+Concept,Vector Similarity,RELATED_TO,Technology,GraphRAG
+Concept,Graph Traversal,RELATED_TO,Technology,GraphRAG
+Concept,Retrieval,RELATED_TO,Technology,GraphRAG
+Technology,graphs,RELATED_TO,Technology,GraphRAG
+Technology,neo4j-graphrag,RELATED_TO,Technology,GraphRAG
+Concept,characters,RELATED_TO,Technology,GraphRAG
+Concept,places,RELATED_TO,Technology,GraphRAG
+Concept,ReasoningTrace,RELATED_TO,Technology,GraphRAG
+Concept,similar past traces,RELATED_TO,Technology,GraphRAG
+Process,"combining full-text, vector, and text-to-cypher searches",PART_OF,Technology,GraphRAG
+Process,query submission,PART_OF,Technology,GraphRAG
+Process,implement simple applications,PART_OF,Technology,GraphRAG
+Process,Create the VectorCypherRetriever retriever,PART_OF,Technology,GraphRAG
+Process,find relevant context based on the user's query,PART_OF,Technology,GraphRAG
+Process,pass the user's query and retrieved context to the LLM,PART_OF,Technology,GraphRAG
+Process,search_facts,PART_OF,Technology,GraphRAG
+Resource,vector_cypher_rag.py,CITES,Technology,GraphRAG
+Resource,text2cypher_rag.py,CITES,Technology,GraphRAG
+Resource,GraphRAG documentation,CITES,Technology,GraphRAG
+Resource,EntityRef,CITES,Technology,GraphRAG
+Resource,GraphRAG lesson,CITES,Technology,GraphRAG
+Concept,movie plot,RELATED_TO,Technology,Plot Embeddings
+Technology,RAG,LEADS_TO,Benefit,find relevant information
+Technology,vector index,LEADS_TO,Benefit,find relevant data
+Process,View the plot embedding,LEADS_TO,Benefit,Return titles and plots for movies that have embeddings
+Process,Query movies where plotEmbedding is not null,LEADS_TO,Benefit,Return titles and plots for movies that have embeddings
+Concept,temperature,RELATED_TO,Technology,Cypher
+Technology,Text to Cypher,RELATED_TO,Technology,Cypher
+Concept,query,RELATED_TO,Technology,Cypher
+Technology,moviePlots vector index,RELATED_TO,Technology,Cypher
+Technology,genai.vector.encode,RELATED_TO,Technology,Cypher
+Technology,VectorCypherRetriever,RELATED_TO,Technology,Cypher
+Concept,retrieval query,RELATED_TO,Technology,Cypher
+Technology,TextToCypherRetriever,RELATED_TO,Technology,Cypher
+Technology,Generated Cypher query,RELATED_TO,Technology,Cypher
+Example,Similar Plots,USED_IN,Technology,Cypher
+Example,Who directed the movie Superman?,USED_IN,Technology,Cypher
+Example,How many movies are in the Sci-Fi genre?,USED_IN,Technology,Cypher
+Example,What are examples of Action movies?,USED_IN,Technology,Cypher
+Process,Generate Embeddings,PART_OF,Technology,Cypher
+Resource,Cypher script,CITES,Technology,Cypher
+Resource,vector_cypher_rag.py,CITES,Technology,Cypher
+Resource,Cypher query language documentation,CITES,Technology,Cypher
+Technology,GraphRAG,RELATED_TO,Technology,graph databases
+Concept,knowledge graph,RELATED_TO,Technology,graph databases
+Process,data modeling,PART_OF,Technology,graph databases
+Resource,Neo4j Documentation,CITES,Technology,graph databases
+Resource,Neo4j,CITES,Technology,graph databases
+Concept,movie plot embeddings,RELATED_TO,Technology,moviePlots
+Process,comparing movie plot embeddings,PART_OF,Technology,moviePlots
+Process,loading Movie plot embeddings from an external file,PART_OF,Technology,moviePlots
+Resource,Cypher script,CITES,Technology,moviePlots
+Concept,Movie nodes,RELATED_TO,Technology,plotEmbedding property
+Process,comparing movie plot embeddings,LEADS_TO,Benefit,finding the most similar movies
+Process,Integration from Diverse Sources,LEADS_TO,Benefit,Holistic View
+Technology,GraphRAG,RELATED_TO,Technology,vector RAG
+Process,Integration from Diverse Sources,LEADS_TO,Benefit,Complex Queries
+Process,Integration from Diverse Sources,LEADS_TO,Benefit,Analytics
+Technology,Cypher,RELATED_TO,Technology,db.index.vector.queryNodes()
+Concept,approximate nearest neighbor nodes,RELATED_TO,Technology,db.index.vector.queryNodes()
+Concept,similarity score,RELATED_TO,Technology,db.index.vector.queryNodes()
+Technology,moviePlots vector index,RELATED_TO,Technology,db.index.vector.queryNodes()
+Concept,plotEmbedding,RELATED_TO,Technology,db.index.vector.queryNodes()
+Concept,similar embeddings,RELATED_TO,Technology,db.index.vector.queryNodes()
+Example,Toy Story,USED_IN,Technology,db.index.vector.queryNodes()
+Resource,Neo4j Cypher Manual - Vector Indexes,CITES,Technology,db.index.vector.queryNodes()
+Technology,db.index.vector.queryNodes(),LEADS_TO,Benefit,Ordered similarity-based retrieval of nearest neighbor nodes
+Concept,embedding,RELATED_TO,Technology,db.index.vector.queryNodes
+Concept,vector index,RELATED_TO,Technology,db.index.vector.queryNodes
+Concept,numberOfNearestNeighbours,RELATED_TO,Technology,db.index.vector.queryNodes
+Concept,query,RELATED_TO,Technology,db.index.vector.queryNodes
+Concept,score,RELATED_TO,Technology,db.index.vector.queryNodes
+Concept,indexName,RELATED_TO,Technology,db.index.vector.queryNodes
+Concept,node,RELATED_TO,Technology,db.index.vector.queryNodes
+Technology,GraphRAG,LEADS_TO,Benefit,Richer Context
+Technology,Retriever,RELATED_TO,Technology,moviePlots vector index
+Technology,db.index.vector.queryNodes(),RELATED_TO,Technology,moviePlots vector index
+Example,Similar Plots,USED_IN,Technology,moviePlots vector index
+Process,Querying Similar Movie Plots,PART_OF,Technology,moviePlots vector index
+Technology,GraphRAG,LEADS_TO,Benefit,Improved Accuracy
+Technology,GraphRAG,LEADS_TO,Benefit,Explainability
+Technology,moviePlots vector index,LEADS_TO,Benefit,find movies with similar plots
+Process,finding the closest embedding value,LEADS_TO,Benefit,find the closest embedding match
+Process,Integration from Diverse Sources,LEADS_TO,Benefit,Insights
+Technology,GraphRAG,RELATED_TO,Technology,full-text search
+Technology,db.index.vector.queryNodes(),LEADS_TO,Benefit,finding similar plots
+Technology,GraphRAG,RELATED_TO,Technology,text-to-cypher search
+Technology,GraphRAG,RELATED_TO,Technology,graph traversal
+Technology,Cypher query,RELATED_TO,Technology,graph traversal
+Technology,advanced retriever,RELATED_TO,Technology,graph traversal
+Process,traversing the graph to find related nodes or entities,PART_OF,Technology,graph traversal
+Concept,relationship,HAS_CHALLENGE,Challenge,sabotage by friends
+Concept,portal between Earth and the imaginary world of Fantasia,RELATED_TO,Technology,magical book
+Example,"NeverEnding Story III, The",USED_IN,Technology,magical book
+Technology,magical book,HAS_CHALLENGE,Challenge,theft by bullies
+Technology,GraphRAG,RELATED_TO,Technology,Graph-Enhanced Vector Search
+Process,combining vector search and graph traversal,PART_OF,Technology,Graph-Enhanced Vector Search
+Example,Drop Dead Fred,USED_IN,Technology,Imaginary friend
+Example,E.T. the Extra-Terrestrial,USED_IN,Technology,Friendly alien
+Example,Gumby: The Movie,USED_IN,Technology,Claymation cartoon series
+Concept,Fantasia,RELATED_TO,Technology,Imaginary world
+Technology,GraphRAG,LEADS_TO,Benefit,flexible queries
+Technology,Embeddings,LEADS_TO,Benefit,Identifying the most similar plot
+Technology,graphs,LEADS_TO,Benefit,enhanced reasoning
+Technology,OpenAI,RELATED_TO,Technology,genai.vector.encode
+Concept,Embedding,RELATED_TO,Technology,genai.vector.encode
+Example,A mysterious spaceship lands Earth,USED_IN,Technology,genai.vector.encode
+Resource,Neo4j Cypher Manual - genai.vector.encode documentation,CITES,Technology,genai.vector.encode
+Technology,OpenAI API key,RELATED_TO,Technology,Embedding
+Example,A mysterious spaceship lands Earth,USED_IN,Technology,Embedding
+Process,Generate a Plot Embedding,PART_OF,Technology,Embedding
+Technology,db.index.vector.queryNodes,RELATED_TO,Technology,Vector index
+Technology,moviePlots vector index,RELATED_TO,Technology,Vector index
+Technology,Embedding,RELATED_TO,Technology,Vector index
+Concept,Similar movie plots,RELATED_TO,Technology,Vector index
+Process,Querying a vector index for similar movie plots,PART_OF,Technology,Vector index
+Technology,GraphRAG,LEADS_TO,Benefit,easier understanding of why certain results were retrieved
+Technology,Embedding,LEADS_TO,Benefit,Find similar movies
+Technology,Vector index,LEADS_TO,Benefit,Find similar movies
+Technology,Vector Retriever,LEADS_TO,Benefit,Find similar movies
+Process,Search for similar movies using Cypher,LEADS_TO,Benefit,Find similar movies
+Resource,platform.openai.com,CITES,Technology,OpenAI API key
+Technology,graphs,LEADS_TO,Benefit,recommendations
+Technology,graphs,LEADS_TO,Benefit,knowledge discovery
+Technology,Embeddings,LEADS_TO,Benefit,Relatively straightforward
+Technology,Vectors,LEADS_TO,Benefit,Quickly yield results
+Example,Movies returned,USED_IN,Technology,Embedding and vector approach
+Process,Using embeddings and vectors,PART_OF,Technology,Embedding and vector approach
+Technology,Embedding and vector approach,RELATED_TO,Technology,Similarity function
+Process,Using embeddings and vectors,LEADS_TO,Benefit,Quick results
+Technology,Embedding and vector approach,HAS_CHALLENGE,Challenge,Heavy reliance on embeddings and similarity function
+Technology,Embedding and vector approach,HAS_CHALLENGE,Challenge,Black box nature
+Technology,Embedding and vector approach,HAS_CHALLENGE,Challenge,Difficult to determine vector structure and influence on similarity score
+Technology,Embedding and vector approach,HAS_CHALLENGE,Challenge,Difficult to verify returned results
+Technology,Vectors,HAS_CHALLENGE,Challenge,Difficulty verifying that the results are correct
+Technology,Vectors,HAS_CHALLENGE,Challenge,"Ineffectiveness for highly specific, numerical, boolean, and ambiguous queries"
+Technology,vector index,RELATED_TO,Technology,graph queries
+Process,using a combination of vector and graph queries,LEADS_TO,Benefit,improved results
+Technology,vector index,LEADS_TO,Benefit,finding context for Generative AI
+Technology,vector index,HAS_CHALLENGE,Challenge,Numerical or Exact-Match Queries
+Technology,vector index,HAS_CHALLENGE,Challenge,Boolean or Logical Queries
+Technology,vector index,HAS_CHALLENGE,Challenge,Ambiguous or Unclear Queries without Context
+Technology,vector index,HAS_CHALLENGE,Challenge,Specialized Knowledge
+Technology,Generative AI,RELATED_TO,Technology,Vector Index
+Technology,Vector Index,LEADS_TO,Benefit,Finding context
+Technology,GraphRAG,LEADS_TO,Benefit,Improved query results
+Technology,vector search,LEADS_TO,Benefit,retrieval of relevant documents
+Technology,graph traversal,LEADS_TO,Benefit,finding related entities or concepts
+Technology,LLM,RELATED_TO,Technology,Graph
+Technology,Vector search,RELATED_TO,Technology,Graph
+Concept,Data,RELATED_TO,Technology,Graph
+Concept,Entities and relationships,RELATED_TO,Technology,Graph
+Concept,Graph schema,RELATED_TO,Technology,Graph
+Concept,Organizing principles,RELATED_TO,Technology,Graph
+Concept,Relationships,RELATED_TO,Technology,Graph
+Technology,Relational database,RELATED_TO,Technology,Graph
+Technology,Other graphs,RELATED_TO,Technology,Graph
+Technology,CSV files,RELATED_TO,Technology,Graph
+Technology,APIs,RELATED_TO,Technology,Graph
+Concept,Entities,RELATED_TO,Technology,Graph
+Concept,Attributes,RELATED_TO,Technology,Graph
+Concept,Nodes,RELATED_TO,Technology,Graph
+Concept,Retrieval Query,RELATED_TO,Technology,Graph
+Technology,Cypher Query,RELATED_TO,Technology,Graph
+Concept,Knowledge Graph,RELATED_TO,Technology,Graph
+Concept,Entity,RELATED_TO,Technology,Graph
+Concept,Provenance,RELATED_TO,Technology,Graph
+Process,Find related nodes or entities,PART_OF,Technology,Graph
+Process,Identify the sources,PART_OF,Technology,Graph
+Process,Analyse the data,PART_OF,Technology,Graph
+Process,Define a graph schema,PART_OF,Technology,Graph
+Process,Create the graph,PART_OF,Technology,Graph
+Process,Graph traversal to find related nodes,PART_OF,Technology,Graph
+Technology,Vector search,LEADS_TO,Benefit,Semantically similar data retrieval
+Process,Find related nodes or entities,LEADS_TO,Benefit,Relevant context for the LLM
+Process,Use relevant results as context,LEADS_TO,Benefit,Relevant context for the LLM
+Technology,vector search,RELATED_TO,Technology,Movie Plot Graph Enhanced Search
+Concept,actors,RELATED_TO,Technology,Movie Plot Graph Enhanced Search
+Concept,user ratings,RELATED_TO,Technology,Movie Plot Graph Enhanced Search
+Technology,graph traversal,RELATED_TO,Technology,Movie Plot Graph Enhanced Search
+Technology,Cypher query,RELATED_TO,Technology,Movie Plot Graph Enhanced Search
+Concept,directors,RELATED_TO,Technology,Movie Plot Graph Enhanced Search
+Concept,genres,RELATED_TO,Technology,Movie Plot Graph Enhanced Search
+Concept,themes,RELATED_TO,Technology,Movie Plot Graph Enhanced Search
+Concept,connections,RELATED_TO,Technology,Movie Plot Graph Enhanced Search
+Concept,LLM,RELATED_TO,Technology,Movie Plot Graph Enhanced Search
+Process,"Add related actors, directors, or genres",PART_OF,Technology,Movie Plot Graph Enhanced Search
+Process,Find other movies with similar themes or connections,PART_OF,Technology,Movie Plot Graph Enhanced Search
+Process,Use user ratings to filter or rank results,PART_OF,Technology,Movie Plot Graph Enhanced Search
+Process,Perform a vector search for movie plots,PART_OF,Technology,Movie Plot Graph Enhanced Search
+Process,Traverse the graph,PART_OF,Technology,Movie Plot Graph Enhanced Search
+Process,"Add related actors, directors, or genres",LEADS_TO,Benefit,Enhanced movie plot search
+Process,Find other movies with similar themes or connections,LEADS_TO,Benefit,Enhanced movie plot search
+Process,Use user ratings to filter or rank results,LEADS_TO,Benefit,Enhanced movie plot search
+Process,Perform a vector search for movie plots,LEADS_TO,Benefit,Enhanced movie plot search
+Process,Traverse the graph,LEADS_TO,Benefit,Enhanced movie plot search
+Process,Use user ratings to filter or rank results,LEADS_TO,Benefit,Most relevant results used as context for the LLM
+Technology,db.index.vector.queryNodes,RELATED_TO,Technology,Vector Search
+Technology,genai.vector.encode,RELATED_TO,Technology,Vector Search
+Technology,Graph Traversal,RELATED_TO,Technology,Vector Search
+Concept,Movie Plots,RELATED_TO,Technology,Vector Search
+Technology,VectorCypherRetriever,RELATED_TO,Technology,Vector Search
+Concept,Retrieval Query,RELATED_TO,Technology,Vector Search
+Example,A mysterious spaceship lands Earth,USED_IN,Technology,Vector Search
+Process,Search for movie plots using vector search,PART_OF,Technology,Vector Search
+Concept,Actors,RELATED_TO,Technology,Graph Traversal
+Concept,Genres,RELATED_TO,Technology,Graph Traversal
+Concept,User Ratings,RELATED_TO,Technology,Graph Traversal
+Process,"Traverse the graph to find related actors, genres, and user ratings",PART_OF,Technology,Graph Traversal
+Technology,LLMs,RELATED_TO,Technology,Knowledge Graphs
+Technology,Neo4j,RELATED_TO,Technology,Knowledge Graphs
+Concept,Context,RELATED_TO,Technology,Knowledge Graphs
+Technology,GraphRAG,RELATED_TO,Technology,Knowledge Graphs
+Concept,Relationships Between Data,RELATED_TO,Technology,Knowledge Graphs
+Concept,real-world entities,RELATED_TO,Technology,Knowledge Graphs
+Concept,relationships,RELATED_TO,Technology,Knowledge Graphs
+Concept,attributes,RELATED_TO,Technology,Knowledge Graphs
+Concept,Data Sources,RELATED_TO,Technology,Knowledge Graphs
+Concept,"Complex, interconnected data",RELATED_TO,Technology,Knowledge Graphs
+Concept,organizing principles,RELATED_TO,Technology,Knowledge Graphs
+Concept,Unstructured data,RELATED_TO,Technology,Knowledge Graphs
+Concept,Structured Data,RELATED_TO,Technology,Knowledge Graphs
+Concept,Unstructured Information,RELATED_TO,Technology,Knowledge Graphs
+Concept,Proprietary or Domain-Specific Data,RELATED_TO,Technology,Knowledge Graphs
+Concept,Unstructured Data,RELATED_TO,Technology,Knowledge Graphs
+Example,Neo4j knowledge graph example,USED_IN,Technology,Knowledge Graphs
+Example,Text documents,USED_IN,Technology,Knowledge Graphs
+Example,Web pages,USED_IN,Technology,Knowledge Graphs
+Example,PDFs,USED_IN,Technology,Knowledge Graphs
+Example,Document node,USED_IN,Technology,Knowledge Graphs
+Example,Chunks,USED_IN,Technology,Knowledge Graphs
+Example,ENTITY nodes,USED_IN,Technology,Knowledge Graphs
+Process,Integration from Diverse Sources,PART_OF,Technology,Knowledge Graphs
+Process,Data query,PART_OF,Technology,Knowledge Graphs
+Process,Data cleanse,PART_OF,Technology,Knowledge Graphs
+Process,Data transform,PART_OF,Technology,Knowledge Graphs
+Resource,GraphAcademy Building Knowledge Graphs with LLMs course,CITES,Technology,Knowledge Graphs
+Process,"Traverse the graph to find related actors, genres, and user ratings",LEADS_TO,Benefit,Additional Context
+Concept,Similarity score,RELATED_TO,Technology,Graph query
+Concept,User rating,RELATED_TO,Technology,Graph query
+Example,"Query to return titles, plots, genres, actors, similarity scores, and average user ratings",USED_IN,Technology,Graph query
+Process,Traverse the graph,PART_OF,Technology,Graph query
+Process,Traverse the graph,LEADS_TO,Benefit,"Find related actors, genres, and user ratings"
+Concept,API key,RELATED_TO,Technology,OpenAI API
+Technology,Neo4j sandbox,RELATED_TO,Technology,OpenAI API
+Concept,Environment setup,RELATED_TO,Technology,OpenAI API
+Process,Replace the placeholder with an OpenAI API key,PART_OF,Technology,OpenAI API
+Resource,genai-fundamentals/test_environment.py,CITES,Technology,OpenAI API
+Technology,Knowledge Graphs,LEADS_TO,Benefit,comprehensive and interconnected understanding of the information
+Technology,Full Text Search,RELATED_TO,Technology,graph-enhanced search
+Technology,Knowledge graphs,RELATED_TO,Technology,Generative AI applications
+Technology,Knowledge Graphs,RELATED_TO,Technology,Generative AI applications
+Technology,knowledge graphs,RELATED_TO,Technology,Generative AI applications
+Technology,Full Text Search,LEADS_TO,Benefit,improved information retrieval
+Technology,vector search,LEADS_TO,Benefit,finding semantically similar content
+Technology,Knowledge Graphs,LEADS_TO,Benefit,"structured, interconnected data"
+Technology,Neo4j,RELATED_TO,Technology,knowledge graphs
+Concept,real-world entities,RELATED_TO,Technology,knowledge graphs
+Concept,relationships,RELATED_TO,Technology,knowledge graphs
+Concept,"structured, interconnected data",RELATED_TO,Technology,knowledge graphs
+Technology,search engines,RELATED_TO,Technology,knowledge graphs
+Concept,rich context,RELATED_TO,Technology,knowledge graphs
+Concept,organized representation,RELATED_TO,Technology,knowledge graphs
+Resource,neo4j-google-knowledge-graph.svg,CITES,Technology,knowledge graphs
+Resource,Neo4j blog post,CITES,Technology,knowledge graphs
+Technology,Vector search,RELATED_TO,Technology,Full text search
+Example,Looking for a movie or actor by name,USED_IN,Technology,Full text search
+Technology,Vector search,LEADS_TO,Benefit,Finding semantically similar content
+Technology,Full text search,LEADS_TO,Benefit,Matching specific keywords or phrases
+Technology,Full text search,LEADS_TO,Benefit,Quickly locating entities by exact name matches
+Technology,Full text search,LEADS_TO,Benefit,Refining results by filtering out irrelevant content
+Technology,vector search,RELATED_TO,Technology,full text search
+Process,filtering out irrelevant content based on specific keywords or phrases,PART_OF,Technology,full text search
+Resource,full-text indexes,CITES,Technology,full text search
+Technology,knowledge graphs,LEADS_TO,Benefit,enhanced context
+Technology,knowledge graphs,LEADS_TO,Benefit,reasoning
+Technology,full text search,LEADS_TO,Benefit,refined results
+Process,filtering out irrelevant content based on specific keywords or phrases,LEADS_TO,Benefit,refined results
+Technology,knowledge graphs,LEADS_TO,Benefit,accuracy in generated responses
+Technology,knowledge graphs,LEADS_TO,Benefit,"information about people, places, and things"
+Technology,LLM,RELATED_TO,Technology,Cypher queries
+Technology,Text to Cypher,RELATED_TO,Technology,Cypher queries
+Technology,Text to Cypher retriever,RELATED_TO,Technology,Cypher queries
+Technology,TextToCypherRetriever,RELATED_TO,Technology,Cypher queries
+Technology,Graph schema,RELATED_TO,Technology,Cypher queries
+Concept,Complex queries,RELATED_TO,Technology,Cypher queries
+Example,movie ratings query example,USED_IN,Technology,Cypher queries
+Process,exception handling,PART_OF,Technology,Cypher queries
+Process,query validation,PART_OF,Technology,Cypher queries
+Process,providing example queries,PART_OF,Technology,Cypher queries
+Technology,Text to Cypher,LEADS_TO,Benefit,direct access to structured data and relationships within the graph
+Process,translating natural language into Cypher queries,LEADS_TO,Benefit,direct access to structured data and relationships within the graph
+Process,interpreting user intent and generating precise graph queries,LEADS_TO,Benefit,direct access to structured data and relationships within the graph
+Technology,Text to Cypher,LEADS_TO,Benefit,advanced graph querying becomes more accessible and flexible
+Technology,Neo4j,RELATED_TO,Technology,graph database
+Technology,knowledge graph,RELATED_TO,Technology,graph database
+Technology,Cypher,RELATED_TO,Technology,graph database
+Concept,knowledge graph,RELATED_TO,Technology,graph database
+Concept,graph,RELATED_TO,Technology,graph database
+Resource,Neo4j Documentation,CITES,Technology,graph database
+Technology,Text to Cypher,LEADS_TO,Benefit,more accessible and flexible advanced graph querying
+Process,generating a Cypher query,LEADS_TO,Benefit,more accessible and flexible advanced graph querying
+Technology,LLM,RELATED_TO,Technology,LLM-generated Cypher queries
+Concept,Graph schema,RELATED_TO,Technology,LLM-generated Cypher queries
+Technology,LLM-generated Cypher queries,RELATED_TO,Technology,Graph database
+Concept,Knowledge graph,RELATED_TO,Technology,Graph database
+Process,Cypher query execution,PART_OF,Technology,Graph database
+Process,Data modeling,PART_OF,Technology,Graph database
+Process,extract entities,PART_OF,Technology,Graph database
+Resource,Neo4j Documentation,CITES,Technology,Graph database
+Resource,documentation,CITES,Technology,Graph database
+Technology,LLM-generated Cypher queries,HAS_CHALLENGE,Challenge,Unsafe queries
+Technology,LLM-generated Cypher queries,HAS_CHALLENGE,Challenge,Inefficient queries
+Technology,LLM-generated Cypher queries,HAS_CHALLENGE,Challenge,Invalid Cypher queries
+Technology,LLM-generated Cypher queries,HAS_CHALLENGE,Challenge,Data corruption
+Technology,LLM-generated Cypher queries,HAS_CHALLENGE,Challenge,Access to sensitive information
+Technology,GraphRAG,LEADS_TO,Benefit,enhanced information retrieval
+Technology,advanced retriever,LEADS_TO,Benefit,enhanced information retrieval
+Technology,GraphRAG,HAS_CHALLENGE,Challenge,exposure to sensitive information
+Technology,GraphRAG,HAS_CHALLENGE,Challenge,malicious queries
+Technology,knowledge graphs,RELATED_TO,Technology,GenAI applications
+Technology,Knowledge Graphs,LEADS_TO,Benefit,Holistic view
+Technology,Knowledge Graphs,LEADS_TO,Benefit,"Complex queries, analytics, and insights"
+Technology,Knowledge Graphs,LEADS_TO,Benefit,Adaptability to new information and structure changes
+Technology,Neo4j,LEADS_TO,Benefit,"representing and querying complex, interconnected data"
+Concept,Organizing principles,RELATED_TO,Technology,GraphAcademy
+Concept,data descriptions,RELATED_TO,Technology,GraphAcademy
+Concept,vocabulary,RELATED_TO,Technology,GraphAcademy
+Example,course -> modules -> lessons,USED_IN,Technology,GraphAcademy
+Technology,Knowledge graphs,LEADS_TO,Benefit,flexibility
+Technology,Knowledge graphs,LEADS_TO,Benefit,Complex queries and analytics
+Technology,Graph,LEADS_TO,Benefit,Complex queries and analytics
+Technology,Knowledge Graphs,HAS_CHALLENGE,Challenge,Complexity of creating knowledge graphs from unstructured data
+Technology,Large Language Models (LLMs),RELATED_TO,Technology,Knowledge Graph Creation
+Concept,Unstructured Text,RELATED_TO,Technology,Knowledge Graph Creation
+Process,Data Cleanse,PART_OF,Technology,Knowledge Graph Creation
+Process,Data Query,PART_OF,Technology,Knowledge Graph Creation
+Process,Data Transform,PART_OF,Technology,Knowledge Graph Creation
+Process,Gather the Data,PART_OF,Technology,Knowledge Graph Creation
+Process,Chunk the Data,PART_OF,Technology,Knowledge Graph Creation
+Technology,Knowledge Graphs,LEADS_TO,Benefit,More Accurate Answers
+Technology,Knowledge Graphs,LEADS_TO,Benefit,Greater Explainability
+Technology,knowledge graphs,LEADS_TO,Benefit,more accurate answers
+Technology,knowledge graphs,LEADS_TO,Benefit,greater explainability
+Concept,Structured Data,RELATED_TO,Technology,Knowledge Graph
+Concept,Module 2,RELATED_TO,Technology,Knowledge Graph
+Process,Constructing knowledge graphs,PART_OF,Technology,Knowledge Graph
+Process,Build,PART_OF,Technology,Knowledge Graph
+Process,Information Extraction,PART_OF,Technology,Knowledge Graph
+Resource,What Is a Knowledge Graph?,CITES,Technology,Knowledge Graph
+Resource,Neo4j,CITES,Technology,Knowledge Graph
+Resource,Shakespeare's Hamlet,CITES,Technology,Knowledge Graph
+Resource,Knowledge Graph Tutorial,CITES,Technology,Knowledge Graph
+Resource,Cypher tools,CITES,Technology,Knowledge Graph
+Technology,Large Language Models (LLMs),LEADS_TO,Benefit,Automation of Knowledge Graph Creation
+Technology,Knowledge Graph Creation,HAS_CHALLENGE,Challenge,Multiple data sources and formats
+Process,Chunk the data,LEADS_TO,Benefit,effective processing by the LLM
+Process,Vectorize the data,LEADS_TO,Benefit,support for querying and searching the data
+Process,Pass the data to an LLM,LEADS_TO,Benefit,extracting entities and relationships
+Concept,data,HAS_CHALLENGE,Challenge,multiple sources and different formats
+Technology,LLM,RELATED_TO,Technology,Knowledge graph
+Concept,Entity extraction,RELATED_TO,Technology,Knowledge graph
+Concept,Relationships,RELATED_TO,Technology,Knowledge graph
+Concept,Unstructured Data Structure,RELATED_TO,Technology,Knowledge graph
+Concept,Document node,RELATED_TO,Technology,Knowledge graph
+Concept,Chunks,RELATED_TO,Technology,Knowledge graph
+Process,Generate the graph,PART_OF,Technology,Knowledge graph
+Process,implement simple applications,LEADS_TO,Benefit,provide context to LLM queries
+Technology,GraphRAG for Python,LEADS_TO,Benefit,Fast shipping of new features
+Concept,Data sources,RELATED_TO,Technology,Graphs
+Concept,Data sources,RELATED_TO,Technology,Relational database
+Example,Rows in a table,USED_IN,Technology,Relational database
+Example,Columns,USED_IN,Technology,Relational database
+Example,Foreign keys,USED_IN,Technology,Relational database
+Concept,Data sources,RELATED_TO,Technology,CSV
+Technology,Structured data,LEADS_TO,Benefit,More straightforward knowledge graph construction
+Technology,Structured data,LEADS_TO,Benefit,Easier mapping of nodes and relationships into a graph
+Example,Retrievers,USED_IN,Technology,GraphRAG for Python
+Example,GraphRAG pipelines,USED_IN,Technology,GraphRAG for Python
+Process,Knowledge graph construction,PART_OF,Technology,GraphRAG for Python
+Resource,GraphRAG for Python documentation,CITES,Technology,GraphRAG for Python
+Technology,GraphRAG for Python,RELATED_TO,Technology,Neo4j Generative AI functions
+Technology,CSV files,RELATED_TO,Technology,structured data sources
+Technology,APIs,RELATED_TO,Technology,structured data sources
+Technology,relational databases,RELATED_TO,Technology,structured data sources
+Technology,GraphRAG for Python,LEADS_TO,Benefit,Long term commitment and maintenance
+Process,Create the graph by transforming and importing data,LEADS_TO,Benefit,quick knowledge graph creation
+Process,Create the graph by transforming and importing data,LEADS_TO,Benefit,queryable and expandable knowledge graph
+Technology,GraphRAG for Python,LEADS_TO,Benefit,High performing patterns
+Technology,neo4j-graphrag,RELATED_TO,Technology,Python
+Technology,pip,RELATED_TO,Technology,Python
+Concept,Programming,RELATED_TO,Technology,Python
+Process,Software Development Life Cycle,PART_OF,Technology,Python
+Resource,Python,CITES,Technology,Python
+Resource,Using Neo4j with Python,CITES,Technology,Python
+Resource,vector_cypher_rag.py,CITES,Technology,Python
+Concept,retrievers,RELATED_TO,Technology,neo4j-graphrag
+Technology,Python,RELATED_TO,Technology,neo4j-graphrag
+Concept,GraphRAG techniques,RELATED_TO,Technology,neo4j-graphrag
+Concept,multiple embedding models,RELATED_TO,Technology,neo4j-graphrag
+Example,code examples and exercises,USED_IN,Technology,neo4j-graphrag
+Process,create retrievers,PART_OF,Technology,neo4j-graphrag
+Process,set up a development environment,PART_OF,Technology,neo4j-graphrag
+Resource,get-started.adoc,CITES,Technology,neo4j-graphrag
+Process,install packages,PART_OF,Technology,pip
+Process,Install required packages,PART_OF,Technology,pip
+Concept,virtual environment,RELATED_TO,Technology,venv
+Process,set up a virtual environment,PART_OF,Technology,venv
+Resource,venv,CITES,Technology,venv
+Concept,virtual environment,RELATED_TO,Technology,virtualenv
+Process,set up a virtual environment,PART_OF,Technology,virtualenv
+Resource,virtualenv,CITES,Technology,virtualenv
+Technology,venv,LEADS_TO,Benefit,keep dependencies separate from other projects
+Technology,virtualenv,LEADS_TO,Benefit,keep dependencies separate from other projects
+Process,set up a virtual environment,LEADS_TO,Benefit,keep dependencies separate from other projects
+Process,Clone repository,PART_OF,Technology,Git
+Technology,Cypher,RELATED_TO,Technology,Neo4j database
+Technology,sandbox instance,RELATED_TO,Technology,Neo4j database
+Technology,Neo4j Python driver,RELATED_TO,Technology,Neo4j database
+Process,Connect to a Neo4j database,PART_OF,Technology,Neo4j database
+Resource,genai-fundamentals/vector_retriever.py,CITES,Technology,Neo4j database
+Technology,sandbox instance,RELATED_TO,Technology,Neo4j GenAI functions
+Technology,Sandbox instance,RELATED_TO,Technology,Neo4j GenAI functions
+Concept,.env.example file,RELATED_TO,Technology,Neo4j GenAI functions
+Concept,OpenAI API key,RELATED_TO,Technology,Neo4j GenAI functions
+Resource,Neo4j GenAI integration documentation,CITES,Technology,Neo4j GenAI functions
+Technology,sandbox instance,LEADS_TO,Benefit,No need to create a Neo4j database
+Process,Setup the environment,PART_OF,Technology,Sandbox instance
+Process,Create a .env file,PART_OF,Technology,Sandbox instance
+Technology,OpenAI API key,RELATED_TO,Technology,.env file
+Technology,Neo4j sandbox,RELATED_TO,Technology,.env file
+Process,Add OpenAI API key,PART_OF,Technology,.env file
+Concept,Environment setup,RELATED_TO,Technology,Neo4j sandbox
+Process,Update Neo4j sandbox connection details,PART_OF,Technology,Neo4j sandbox
+Resource,genai-fundamentals/test_environment.py,CITES,Technology,Neo4j sandbox
+Process,Run genai-fundamentals/test_environment.py,LEADS_TO,Benefit,Test your setup
+Concept,Environment setup,HAS_CHALLENGE,Challenge,Tests fail
+Process,Setting up your environment,LEADS_TO,Benefit,Ready to start this module
+Concept,Context,RELATED_TO,Technology,Vector retriever
+Concept,Data,RELATED_TO,Technology,Vector retriever
+Resource,Next lesson,CITES,Technology,Vector retriever
+Technology,Vector retriever,LEADS_TO,Benefit,Provide context to an LLM
+Concept,Semantic similarity,RELATED_TO,Technology,Vector Retriever
+Technology,Cypher,RELATED_TO,Technology,Vector Retriever
+Technology,moviePlots vector index,RELATED_TO,Technology,Vector Retriever
+Concept,Unstructured data,RELATED_TO,Technology,Vector Retriever
+Concept,Retriever,RELATED_TO,Technology,Vector Retriever
+Concept,Movie plot,RELATED_TO,Technology,Vector Retriever
+Concept,Query,RELATED_TO,Technology,Vector Retriever
+Concept,Results,RELATED_TO,Technology,Vector Retriever
+Example,User query,USED_IN,Technology,Vector Retriever
+Process,Search for similar movies using Cypher,PART_OF,Technology,Vector Retriever
+Process,Search for similar movies based on a query,PART_OF,Technology,Vector Retriever
+Resource,vector_retriever.py,CITES,Technology,Vector Retriever
+Technology,Vector Retriever,LEADS_TO,Benefit,Retrieve relevant data
+Concept,Vectors,RELATED_TO,Technology,Embedder
+Concept,vector,RELATED_TO,Technology,Embedder
+Concept,query,RELATED_TO,Technology,Embedder
+Concept,User queries,RELATED_TO,Technology,Embedder
+Concept,user's query,RELATED_TO,Technology,Embedder
+Process,Create an embedder,PART_OF,Technology,Embedder
+Resource,genai-fundamentals/vector_retriever.py,CITES,Technology,Embedder
+Resource,vector_cypher_rag.py,CITES,Technology,Embedder
+Resource,genai_fundamentals/text2cypher_rag.py,CITES,Technology,Embedder
+Example,vector_retriever.py,USED_IN,Technology,Neo4j Python driver
+Resource,Using Neo4j with Python,CITES,Technology,Neo4j Python driver
+Technology,LLM,RELATED_TO,Technology,RAG Pipeline
+Technology,Retrieval-Augmented Generation (RAG),RELATED_TO,Technology,RAG Pipeline
+Technology,Retriever,RELATED_TO,Technology,RAG Pipeline
+Concept,Additional context,RELATED_TO,Technology,RAG Pipeline
+Resource,genai-fundamentals/vector_rag.py,CITES,Technology,RAG Pipeline
+Technology,VectorCypherRetriever,RELATED_TO,Technology,Graph-Enhanced Vector Retriever
+Concept,vector search,RELATED_TO,Technology,Graph-Enhanced Vector Retriever
+Concept,graph traversal,RELATED_TO,Technology,Graph-Enhanced Vector Retriever
+Concept,relationships in the graph,RELATED_TO,Technology,Graph-Enhanced Vector Retriever
+Concept,vector search,RELATED_TO,Technology,VectorCypherRetriever
+Concept,graph traversal,RELATED_TO,Technology,VectorCypherRetriever
+Concept,Retrieval Query,RELATED_TO,Technology,VectorCypherRetriever
+Example,genres,USED_IN,Technology,VectorCypherRetriever
+Example,actors,USED_IN,Technology,VectorCypherRetriever
+Process,Configure the Cypher retrieval query,PART_OF,Technology,VectorCypherRetriever
+Process,graph traversal,PART_OF,Technology,VectorCypherRetriever
+Resource,vector_cypher_rag.py,CITES,Technology,VectorCypherRetriever
+Technology,RAG Pipeline,LEADS_TO,Benefit,More accurate and relevant responses
+Technology,text-embedding-ada-002,LEADS_TO,Benefit,vector compatibility
+Technology,neo4j-graphrag,LEADS_TO,Benefit,ability to create your own interface
+Technology,LLM,RELATED_TO,Technology,vector retriever
+Concept,context,RELATED_TO,Technology,vector retriever
+Technology,Neo4j,RELATED_TO,Technology,vector retriever
+Technology,GraphRAG pipeline,RELATED_TO,Technology,vector retriever
+Technology,search method,RELATED_TO,Technology,vector retriever
+Technology,neo4j-graphrag package,RELATED_TO,Technology,vector retriever
+Concept,queries,RELATED_TO,Technology,vector retriever
+Concept,retriever_result,RELATED_TO,Technology,vector retriever
+Process,create the vector retriever,PART_OF,Technology,vector retriever
+Process,experiment with different queries,PART_OF,Technology,vector retriever
+Resource,vector_rag.py,CITES,Technology,vector retriever
+Technology,Retriever,LEADS_TO,Benefit,specify returned properties from matching nodes
+Technology,GraphRAG,RELATED_TO,Technology,retriever
+Technology,Cypher,RELATED_TO,Technology,retriever
+Concept,query,RELATED_TO,Technology,retriever
+Concept,graph schema,RELATED_TO,Technology,retriever
+Concept,user's query,RELATED_TO,Technology,retriever
+Concept,number of results,RELATED_TO,Technology,retriever
+Technology,search method,RELATED_TO,Technology,retriever
+Technology,RAG pipeline,RELATED_TO,Technology,retriever
+Concept,relevant context,RELATED_TO,Technology,retriever
+Process,search,PART_OF,Technology,retriever
+Process,read graph schema,PART_OF,Technology,retriever
+Resource,text2cypher_rag.py,CITES,Technology,retriever
+Technology,LLM,RELATED_TO,Technology,GraphRAG pipeline
+Technology,vector retriever,RELATED_TO,Technology,GraphRAG pipeline
+Concept,transparency,RELATED_TO,Technology,GraphRAG pipeline
+Example,Find the highest rated action movie about travelling to other planets,USED_IN,Technology,GraphRAG pipeline
+Process,create the GraphRAG pipeline,PART_OF,Technology,GraphRAG pipeline
+Process,submit a query,PART_OF,Technology,GraphRAG pipeline
+Process,parse the results,PART_OF,Technology,GraphRAG pipeline
+Process,return context after the response,PART_OF,Technology,GraphRAG pipeline
+Process,perform a vector search for movie plots,PART_OF,Technology,GraphRAG pipeline
+Process,run the retrieval query,PART_OF,Technology,GraphRAG pipeline
+Resource,genai_fundamentals/text2cypher_rag.py,CITES,Technology,GraphRAG pipeline
+Concept,vector,RELATED_TO,Technology,embedder
+Technology,GraphRAG,RELATED_TO,Technology,embedder
+Concept,query,RELATED_TO,Technology,embedder
+Technology,retriever,RELATED_TO,Technology,embedder
+Resource,vector_cypher_rag.py,CITES,Technology,embedder
+Concept,query,RELATED_TO,Technology,search method
+Concept,items,RELATED_TO,Technology,search method
+Example,search for similar movies,USED_IN,Technology,search method
+Example,return_context=True,USED_IN,Technology,search method
+Process,add the return_context=True parameter to the search method,PART_OF,Technology,search method
+Resource,vector_rag.py,CITES,Technology,search method
+Process,Search for similar movies based on a query,LEADS_TO,Benefit,See movie titles and plots in the results
+Concept,similarity score,RELATED_TO,Technology,movie similarity search program
+Concept,query,RELATED_TO,Technology,movie similarity search program
+Concept,movie titles,RELATED_TO,Technology,movie similarity search program
+Concept,plots,RELATED_TO,Technology,movie similarity search program
+Example,Toy Story,USED_IN,Technology,movie similarity search program
+Example,Pinocchio,USED_IN,Technology,movie similarity search program
+Process,search for similar movies based on a query,PART_OF,Technology,movie similarity search program
+Technology,VectorCypherRetriever,LEADS_TO,Benefit,finding relevant data
+Technology,neo4j_graphrag package,RELATED_TO,Technology,OpenAILLM
+Technology,gpt-4o,RELATED_TO,Technology,OpenAILLM
+Process,modifying the temperature,PART_OF,Technology,OpenAILLM
+Example,Jumanji,USED_IN,Technology,board game
+Process,finishing the game,PART_OF,Technology,board game
+Technology,board game,HAS_CHALLENGE,Challenge,host of dangers
+Process,finishing the game,LEADS_TO,Benefit,stopping the dangers
+Example,"Secret Adventures of Tom Thumb, The",USED_IN,Technology,stop motion animation techniques
+Technology,VectorCypherRetriever,LEADS_TO,Benefit,finding related nodes or entities
+Resource,neo4j-graphrag package documentation,CITES,Technology,neo4j-graphrag package
+Technology,LLM,RELATED_TO,Technology,RAG pipeline
+Technology,vector retriever,RELATED_TO,Technology,RAG pipeline
+Technology,retriever,RELATED_TO,Technology,RAG pipeline
+Concept,retrieved data,RELATED_TO,Technology,RAG pipeline
+Technology,GraphRAG class,RELATED_TO,Technology,RAG pipeline
+Technology,RAG pipeline,LEADS_TO,Benefit,answer questions
+Process,experiment with different queries,LEADS_TO,Benefit,find different movies
+Technology,LLM,RELATED_TO,Technology,gpt-4o
+Concept,temperature,RELATED_TO,Technology,gpt-4o
+Concept,randomness of the generated response,RELATED_TO,Technology,gpt-4o
+Concept,model_params,RELATED_TO,Technology,gpt-4o
+Technology,gpt-4o,RELATED_TO,Technology,OpenAI model
+Concept,model parameter,RELATED_TO,Technology,OpenAI model
+Resource,OpenAI model,CITES,Technology,OpenAI model
+Technology,GraphRAG,RELATED_TO,Technology,llm
+Resource,vector_cypher_rag.py,CITES,Technology,llm
+Technology,neo4j-graphrag package,RELATED_TO,Technology,LLM models
+Technology,neo4j-graphrag package,LEADS_TO,Benefit,Ability to create your own interface
+Process,Converting natural language queries into Cypher queries,LEADS_TO,Benefit,Execution of Cypher queries against the graph
+Technology,Text to Cypher retriever,LEADS_TO,Benefit,Execution of Cypher queries against the graph
+Concept,User query,RELATED_TO,Technology,Text to Cypher retriever
+Concept,Graph schema,RELATED_TO,Technology,Text to Cypher retriever
+Concept,Graph,RELATED_TO,Technology,Text to Cypher retriever
+Concept,Natural language queries,RELATED_TO,Technology,Text to Cypher retriever
+Concept,Cypher queries,RELATED_TO,Technology,Text to Cypher retriever
+Concept,Natural language input,RELATED_TO,Technology,Text to Cypher retriever
+Example,Movie recommendations based on rating,USED_IN,Technology,Text to Cypher retriever
+Example,What year was the movie Babe released?,USED_IN,Technology,Text to Cypher retriever
+Example,Examples,USED_IN,Technology,Text to Cypher retriever
+Process,Converting natural language queries into Cypher queries,PART_OF,Technology,Text to Cypher retriever
+Process,Generating Cypher queries,PART_OF,Technology,Text to Cypher retriever
+Process,Adapting examples and schema,PART_OF,Technology,Text to Cypher retriever
+Resource,genai_fundamentals/text2cypher_rag.py,CITES,Technology,Text to Cypher retriever
+Concept,Retrieval Query,RELATED_TO,Technology,Cypher Query
+Technology,Text to Cypher retriever,LEADS_TO,Benefit,Context generation
+Process,Search,LEADS_TO,Benefit,generated response
+Process,pass the retrieved data to the LLM,LEADS_TO,Benefit,generated response
+Technology,retriever_config,RELATED_TO,Technology,vector_rag
+Example,search for similar movies based on a plot,USED_IN,Technology,vector_rag
+Process,return context,PART_OF,Technology,vector_rag
+Technology,vector retriever,LEADS_TO,Benefit,understanding how the LLM generated the response
+Process,experiment with different queries,LEADS_TO,Benefit,understanding how the LLM generated the response
+Process,return context,LEADS_TO,Benefit,understanding how the LLM generated the response
+Process,add the return_context=True parameter to the search method,LEADS_TO,Benefit,understanding how the LLM generated the response
+Process,graph traversal,LEADS_TO,Benefit,finding related nodes
+Process,graph traversal,LEADS_TO,Benefit,sorting results by user rating
+Technology,LLM,HAS_CHALLENGE,Challenge,inconsistent responses
+Concept,relationships,RELATED_TO,Technology,advanced retriever
+Process,return context after the response,LEADS_TO,Benefit,understanding how the LLM arrived at its response
+Process,return context after the response,LEADS_TO,Benefit,debugging purposes
+Technology,Vector Retriever,RELATED_TO,Technology,Text to Cypher Retriever
+Technology,Full Text Retriever,RELATED_TO,Technology,Text to Cypher Retriever
+Example,Movie recommendations based on rating,USED_IN,Technology,Text to Cypher Retriever
+Example,The age of an actor,USED_IN,Technology,Text to Cypher Retriever
+Example,Who acted in a movie,USED_IN,Technology,Text to Cypher Retriever
+Process,Performing more complex queries,PART_OF,Technology,Text to Cypher Retriever
+Process,run the retrieval query,LEADS_TO,Benefit,"retrieval of related actors, genres, and user ratings"
+Concept,Keyword matching,RELATED_TO,Technology,Full Text Retriever
+Technology,LLM,HAS_CHALLENGE,Challenge,unpredictable responses
+Technology,actors,RELATED_TO,Technology,movies
+Technology,genres,RELATED_TO,Technology,movies
+Concept,traveling to other planets,RELATED_TO,Technology,movies
+Example,Aliens,USED_IN,Technology,movies
+Example,Find a comedy movie about vampires,USED_IN,Technology,movies
+Example,Who acts in drama movies about romance and love?,USED_IN,Technology,movies
+Example,What genres are represented about movies where the hero fails his mission?,USED_IN,Technology,genres
+Process,Performing more complex queries,LEADS_TO,Benefit,Answering more specific questions
+Technology,Retriever,LEADS_TO,Benefit,Finding relevant data
+Technology,Vector Retriever,LEADS_TO,Benefit,Finding relevant data
+Technology,Text to Cypher retriever,LEADS_TO,Benefit,Finding relevant data
+Technology,Full Text Retriever,LEADS_TO,Benefit,Finding relevant data
+Concept,context,RELATED_TO,Technology,retrieval query
+Concept,movies,RELATED_TO,Technology,retrieval query
+Concept,directors,RELATED_TO,Technology,retrieval query
+Concept,DIRECTED pattern `(node)<-[:DIRECTED]-(director)`,RELATED_TO,Technology,retrieval query
+Example,Who has directed movies about weddings?,USED_IN,Technology,retrieval query
+Process,modifying the retrieval query to include directors,PART_OF,Technology,retrieval query
+Technology,retrieval query,HAS_CHALLENGE,Challenge,Include the directors of the movies in the context
+Process,modifying the temperature of the LLM,LEADS_TO,Benefit,predictable responses
+Technology,Retriever,RELATED_TO,Technology,Graph traversal
+Concept,Embedding model,RELATED_TO,Technology,GenAI Frameworks
+Example,Retrieval-augmented generation (RAG),USED_IN,Technology,GenAI Frameworks
+Example,Agentic workflows,USED_IN,Technology,GenAI Frameworks
+Example,Knowledge graph construction,USED_IN,Technology,GenAI Frameworks
+Process,"LLM usage, prompt and output management",PART_OF,Technology,GenAI Frameworks
+Resource,tour_sessions,CITES,Technology,memory.graph.execute_write
+Technology,GenAI Frameworks,RELATED_TO,Technology,Large language models (LLMs)
+Concept,graph schema,RELATED_TO,Technology,TextToCypherRetriever
+Concept,Cypher queries,RELATED_TO,Technology,TextToCypherRetriever
+Technology,database,RELATED_TO,Technology,TextToCypherRetriever
+Concept,examples,RELATED_TO,Technology,TextToCypherRetriever
+Concept,custom schema,RELATED_TO,Technology,TextToCypherRetriever
+Concept,schema,RELATED_TO,Technology,TextToCypherRetriever
+Example,Get user ratings for a movie?,USED_IN,Technology,TextToCypherRetriever
+Example,MATCH ()-[r:RATED]->(m:Movie) WHERE m.title = 'Movie Title' RETURN r.rating,USED_IN,Technology,TextToCypherRetriever
+Example,What is the highest rating for Goodfellas?,USED_IN,Technology,TextToCypherRetriever
+Example,What is the average user rating for the movie Toy Story?,USED_IN,Technology,TextToCypherRetriever
+Example,What user gives the lowest ratings?,USED_IN,Technology,TextToCypherRetriever
+Process,set temperature to 0,PART_OF,Technology,TextToCypherRetriever
+Process,Create a list of the example queries,PART_OF,Technology,TextToCypherRetriever
+Process,Update TextToCypherRetriever to include the examples,PART_OF,Technology,TextToCypherRetriever
+Process,specifying multiple examples,PART_OF,Technology,TextToCypherRetriever
+Process,Experiment,PART_OF,Technology,TextToCypherRetriever
+Resource,text2cypher_rag.py,CITES,Technology,TextToCypherRetriever
+Resource,text2cypher_rag_examples.py,CITES,Technology,TextToCypherRetriever
+Resource,text2cypher_rag_schema.py,CITES,Technology,TextToCypherRetriever
+Technology,LangChain,RELATED_TO,Technology,GenAI frameworks
+Process,"LLM usage, prompt and output management",PART_OF,Technology,GenAI frameworks
+Process,Embedding model integration,PART_OF,Technology,GenAI frameworks
+Process,Vector and database integration,PART_OF,Technology,GenAI frameworks
+Process,RAG workflows,PART_OF,Technology,GenAI frameworks
+Process,Agentic workflows and orchestration,PART_OF,Technology,GenAI frameworks
+Process,"Monitoring, observability, and deployment tools",PART_OF,Technology,GenAI frameworks
+Technology,TextToCypherRetriever,RELATED_TO,Technology,graph
+Concept,entity,RELATED_TO,Technology,graph
+Concept,audit trail,RELATED_TO,Technology,graph
+Process,MERGE,PART_OF,Technology,graph
+Process,set temperature to 0,LEADS_TO,Benefit,deterministic and precise output
+Concept,Entity extraction,RELATED_TO,Technology,Extraction
+Concept,Knowledge Graph,RELATED_TO,Technology,Extraction
+Concept,Information Extraction,RELATED_TO,Technology,Extraction
+Concept,Extractor,RELATED_TO,Technology,Extraction
+Resource,Embedding,CITES,Technology,Extraction
+Resource,POLE+O entity model,CITES,Technology,Extraction
+Resource,KG Builder Documentation,CITES,Technology,Extraction
+Resource,Guidelines for response,CITES,Technology,Extraction
+Concept,graph schema,RELATED_TO,Technology,database
+Technology,retriever,RELATED_TO,Technology,database
+Technology,Langchain4j,RELATED_TO,Technology,LangChain
+Concept,GenAI frameworks,RELATED_TO,Technology,LangChain
+Resource,LangChain (Python),CITES,Technology,LangChain
+Resource,LangChain website,CITES,Technology,LangChain
+Process,Submitting a query,PART_OF,Technology,Generated Cypher query
+Process,Reviewing results,PART_OF,Technology,Generated Cypher query
+Process,Validating generated Cypher queries,PART_OF,Technology,Generated Cypher query
+Process,Handling exceptions,PART_OF,Technology,Generated Cypher query
+Technology,Generated Cypher query,HAS_CHALLENGE,Challenge,Generated Cypher query may not return results
+Technology,Generated Cypher query,HAS_CHALLENGE,Challenge,Generated Cypher query may be syntactically incorrect
+Technology,LlamaIndex,LEADS_TO,Benefit,RAG and knowledge graph use cases
+Process,connecting LLMs to external data,LEADS_TO,Benefit,RAG and knowledge graph use cases
+Process,providing example queries,LEADS_TO,Benefit,improved accuracy
+Technology,Python,RELATED_TO,Technology,Text2Cypher RAG
+Concept,movie ratings,RELATED_TO,Technology,Text2Cypher RAG
+Example,What is the highest rating for Goodfellas?,USED_IN,Technology,Text2Cypher RAG
+Example,What is the average user rating?,USED_IN,Technology,Text2Cypher RAG
+Process,Run the program and experiment with queries,PART_OF,Technology,Text2Cypher RAG
+Resource,text2cypher_rag_examples.py,CITES,Technology,Text2Cypher RAG
+Concept,Entity and Relationship Extraction,RELATED_TO,Technology,Knowledge Graph Extraction
+Technology,LangChain,LEADS_TO,Benefit,building LLM-powered applications
+Concept,GenAI workflows,RELATED_TO,Technology,LangChainJS
+Concept,browser environments,RELATED_TO,Technology,LangChainJS
+Resource,LangChainJS website,CITES,Technology,LangChainJS
+Process,specifying multiple examples,LEADS_TO,Benefit,more accurate Cypher query generation
+Process,Limiting schema scope,PART_OF,Technology,Graph schema
+Process,Creating a textual representation of the graph schema,PART_OF,Technology,Graph schema
+Resource,text2cypher_rag_schema.py,CITES,Technology,Graph schema
+Technology,LangChainJS,RELATED_TO,Technology,Node.js
+Process,Limiting schema scope,LEADS_TO,Benefit,Improved accuracy of generated Cypher queries
+Technology,Cypher queries,HAS_CHALLENGE,Challenge,Graph contains many nodes and relationships
+Technology,LangChainJS,LEADS_TO,Benefit,GenAI workflows in Node.js and browser environments
+Concept,knowledge graph,RELATED_TO,Technology,LlamaIndex
+Concept,RAG,RELATED_TO,Technology,LlamaIndex
+Concept,external data,RELATED_TO,Technology,LlamaIndex
+Concept,GenAI frameworks,RELATED_TO,Technology,LlamaIndex
+Process,connecting LLMs to external data,PART_OF,Technology,LlamaIndex
+Resource,LlamaIndex website,CITES,Technology,LlamaIndex
+Process,Adapting examples and schema,LEADS_TO,Benefit,Improved accuracy of generated queries
+Concept,Cypher queries,RELATED_TO,Technology,text to Cypher retriever
+Concept,natural language input,RELATED_TO,Technology,text to Cypher retriever
+Concept,GenAI frameworks,RELATED_TO,Technology,Spring AI
+Resource,Spring AI,CITES,Technology,Spring AI
+Concept,LLM,RELATED_TO,Technology,Langchain4j
+Concept,RAG,RELATED_TO,Technology,Langchain4j
+Resource,Langchain4j,CITES,Technology,Langchain4j
+Concept,search systems,RELATED_TO,Technology,Haystack
+Concept,question-answering systems,RELATED_TO,Technology,Haystack
+Concept,graph-based retrieval,RELATED_TO,Technology,Haystack
+Resource,Haystack,CITES,Technology,Haystack
+Concept,AI workflows,RELATED_TO,Technology,Semantic Kernel
+Concept,LLM pipelines,RELATED_TO,Technology,DSPy
+Concept,GenAI application development,RELATED_TO,Technology,Neo4j GenAI Frameworks
+Process,programming and optimizing LLM pipelines,PART_OF,Technology,Neo4j GenAI Frameworks
+Process,building complex workflows,PART_OF,Technology,Neo4j GenAI Frameworks
+Resource,Neo4j GenAI Frameworks documentation,CITES,Technology,Neo4j GenAI Frameworks
+Technology,Neo4j GenAI Frameworks,RELATED_TO,Technology,Neo4j connectors
+Technology,Neo4j GenAI Frameworks,RELATED_TO,Technology,AI components
+Technology,Neo4j GenAI Frameworks,LEADS_TO,Benefit,support for GenAI application development
+Process,building complex workflows,LEADS_TO,Benefit,integration of Neo4j with LLMs and AI components
+Concept,Concept,RELATED_TO,Technology,Technology
+Example,Example,USED_IN,Technology,Technology
+Process,Process,PART_OF,Technology,Technology
+Resource,Resource,CITES,Technology,Technology
+Concept,Latitude and Longitude,RELATED_TO,Technology,GeoPoint
+Concept,Entity extraction,RELATED_TO,Technology,Input
+Example,JSON output format,USED_IN,Technology,Input
+Concept,Entity Extraction,RELATED_TO,Technology,Knowledge Graph Extraction Tool
+Concept,Knowledge Graph,RELATED_TO,Technology,Deriving
+Resource,Example Article,CITES,Technology,Deriving
+Concept,Concept,HAS_CHALLENGE,Challenge,Challenge
+Technology,Technology,HAS_CHALLENGE,Challenge,Challenge
+Resource,HAS_PREFERENCE,CITES,Technology,Tour
+Resource,GitHub Codespace,CITES,Technology,Code
+Concept,entity,RELATED_TO,Technology,Entity model
+Concept,connect(),RELATED_TO,Technology,Notebook
+Resource,Codespace,CITES,Technology,Notebook
+Concept,Knowledge Graph,RELATED_TO,Technology,Entity Extraction
+Resource,Neo4j,CITES,Technology,MemoryClient
+Resource,SYSTEM_PROMPT,CITES,Technology,System prompt
+Concept,Entities and Relationships,RELATED_TO,Technology,Knowledge Graph Extraction System
+Concept,Entity and Relationship Extraction,RELATED_TO,Technology,Knowledge Graph Extraction System
+Concept,Knowledge Graph,RELATED_TO,Technology,Graph Databases
+Resource,Neo4j Documentation,CITES,Technology,Graph Databases
+Process,Named Entity Recognition,LEADS_TO,Benefit,Extraction results
+Resource,GitHub Repository,CITES,Technology,Neo4j Graph
+Resource,recall_preferences,CITES,Technology,knowledge-graph tools
+Resource,save_preference,CITES,Technology,knowledge-graph tools
+Resource,search_messages,CITES,Technology,knowledge-graph tools
+Resource,search_entities,CITES,Technology,knowledge-graph tools
+Concept,EXTRACTED_CONCEPT,RELATED_TO,Technology,EXTRACTED_TECHNOLOGY
+Resource,Workshop text,CITES,Technology,Agent Memory System
+Process,Seeding,PART_OF,Technology,memory system
+Process,Migration,PART_OF,Technology,memory system
+Process,Ingestion,PART_OF,Technology,memory system
+Resource,add_messages_batch,CITES,Technology,memory system
+Technology,Context,RELATED_TO,Technology,add_message
+Concept,entities,RELATED_TO,Technology,extractor
+Resource,session details,CITES,Technology,extractor
+Concept,entropy,RELATED_TO,Technology,text processing
+Resource,paper,CITES,Technology,text processing
+Resource,save_fact,CITES,Technology,Memory
+Resource,Trace,CITES,Technology,Memory
+Technology,Extraction,HAS_CHALLENGE,Challenge,Ambiguity
+Concept,Entity Embedding,RELATED_TO,Technology,Search and Embeddings System
+Resource,API Documentation,CITES,Technology,Search and Embeddings System
+Concept,turn,RELATED_TO,Technology,Agent
+Process,start the agent with the command,PART_OF,Technology,Agent
+Resource,tool,CITES,Technology,agent tool
+Process,Geocoding,PART_OF,Technology,Geocoder
+Concept,Unknown,RELATED_TO,Technology,Unknown
+Process,embedding,PART_OF,Technology,Hosted-backend client
+Resource,HTTPS,CITES,Technology,Hosted-backend client
+Concept,unknown,RELATED_TO,Technology,unknown
+Process,process per batch,PART_OF,Technology,batch processing
+Technology,Technology,LEADS_TO,Benefit,Benefit
+Process,Process,LEADS_TO,Benefit,Benefit
+Concept,Knowledge Graph,RELATED_TO,Technology,Graph Database
+Resource,Neo4j,CITES,Technology,Graph Database
+Technology,Shakespeare,RELATED_TO,Technology,Shakespeare
+Concept,,RELATED_TO,Technology,
+Example,,USED_IN,Technology,
+Process,,PART_OF,Technology,
+Resource,,CITES,Technology,
+Technology,Graph database,RELATED_TO,Technology,Natural Language Processing
+Concept,Similarity Threshold,RELATED_TO,Technology,Text Processing Framework
+Process,Find Potential Duplicates,PART_OF,Technology,Text Processing Framework
+Resource,SAME_AS Documentation,CITES,Technology,Text Processing Framework
+Concept,types,RELATED_TO,Technology,GLiNER
+Resource,en_core_web_sm,CITES,Technology,spacy_pipeline
+Technology,spacy_pipeline,RELATED_TO,Technology,spacy_model
+Resource,en_core_web_sm,CITES,Technology,spacy_model
+Resource,en_core_web_trf,CITES,Technology,spacy_model
+Concept,ACTIVITY,RELATED_TO,Technology,Pole+O
+Resource,agent.py,CITES,Technology,Pole+O
+Concept,Networking,RELATED_TO,Technology,LinkedIn
+Technology,Facts and Preferences,RELATED_TO,Technology,Facts are declarative claims
+Concept,The docstring,RELATED_TO,Technology,docstring
+Process,add_fact,PART_OF,Technology,docstring
+Resource,SYSTEM_PROMPT,CITES,Technology,docstring
+Resource,save_fact,CITES,Technology,schema
+Resource,get_schema,CITES,Technology,schema
+Resource,search_lesson_content,CITES,Technology,schema
+Resource,query_database,CITES,Technology,schema
+Concept,Vector Space Model,RELATED_TO,Technology,Text Retrieval
+Example,BM25 vs. neural retrievers,USED_IN,Technology,Text Retrieval
+Process,Indexing,PART_OF,Technology,Text Retrieval
+Resource,Introduction to Information Retrieval,CITES,Technology,Text Retrieval
+Process,add_fact,PART_OF,Technology,The Facts and Preferences API
+Concept,Knowledge Graph,RELATED_TO,Technology,Text-based Q&A
+Resource,Neo4j Documentation,CITES,Technology,Text-based Q&A
+Technology,User,RELATED_TO,Technology,User
+Resource,metadata,CITES,Technology,search_preferences
+Resource,Supersede the old preference,CITES,Technology,memory
+Process,Define how_did_i_handle,PART_OF,Technology,Querying Traces
+Resource,workshop-agent-memory,CITES,Technology,Querying Traces
+Technology,,HAS_CHALLENGE,Challenge,
+Concept,,HAS_CHALLENGE,Challenge,
+Technology,,LEADS_TO,Benefit,
+Process,,LEADS_TO,Benefit,
+Technology,graph databases,HAS_CHALLENGE,Challenge,scalability
+Resource,metadata,CITES,Technology,Task
+Resource,session_id,CITES,Technology,Task
+Resource,triggered_by_message_id,CITES,Technology,Task
+Resource,user_identifier,CITES,Technology,Task
+Concept,Embedding,RELATED_TO,Technology,Reasoning
+Resource,Tooling Documentation,CITES,Technology,Reasoning
+Process,complete_trace,PART_OF,Technology,complete_trace
+Resource,trace_id,CITES,Technology,complete_trace
+Resource,TraceOutcome,CITES,Technology,trace_id
+Resource,TraceOutcome,CITES,Technology,outcome
+Resource,API-tour,CITES,Technology,memory_agent_mvp.py
+Concept,Data,RELATED_TO,Technology,Storage
+Process,Backup,PART_OF,Technology,Storage
+Resource,Article,CITES,Technology,Storage
+Process,query,PART_OF,Technology,Cypher tools
+Resource,save_fact,CITES,Technology,Cypher tools
+Resource,docs,CITES,Technology,Agent memory
+Resource,Neo4j Graph Database,CITES,Technology,text_selection
+Process,save_fact,PART_OF,Technology,search_lesson_content
+Process,Write grants,PART_OF,Technology,search_lesson_content
+Process,save_preference,PART_OF,Technology,search_lesson_content
+Process,record_connection,PART_OF,Technology,search_lesson_content
+Resource,What your agent may record,CITES,Technology,search_lesson_content
+Technology,search_lesson_content,RELATED_TO,Technology,query_database

@@ -1,5 +1,5 @@
 # Tests the environment: the .env file, the OpenAI and Neo4j connections, and
-# that neo4j-agent-memory is installed with its schema initialised.
+# that neo4j-agent-memory is installed.
 # Run with: python test_environment.py
 import os
 import unittest
@@ -7,24 +7,12 @@ import unittest
 from dotenv import load_dotenv, find_dotenv
 load_dotenv()
 
-# Vector indexes neo4j-agent-memory creates on first connect — one per memory
-# type. Their presence proves the memory schema initialised.
-MEMORY_VECTOR_INDEXES = {
-    "message_embedding_idx",
-    "entity_embedding_idx",
-    "preference_embedding_idx",
-    "fact_embedding_idx",
-    "task_embedding_idx",
-    "step_embedding_idx",
-}
-
 
 class TestEnvironment(unittest.TestCase):
 
     skip_env_variable_tests = True
     skip_openai_test = True
     skip_neo4j_test = True
-    skip_memory_test = True
 
     def test_env_file_exists(self):
         env_file_exists = True if find_dotenv() > "" else False
@@ -51,7 +39,6 @@ class TestEnvironment(unittest.TestCase):
         self.env_variable_exists('NEO4J_URI')
         self.env_variable_exists('NEO4J_USERNAME')
         self.env_variable_exists('NEO4J_PASSWORD')
-        self.env_variable_exists('NEO4J_DATABASE')
         TestEnvironment.skip_neo4j_test = False
 
     def test_memory_workspace_variables(self):
@@ -83,7 +70,7 @@ class TestEnvironment(unittest.TestCase):
 
     def test_neo4j_connection(self):
 
-        msg = "Neo4j connection failed. Check the NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD, NEO4J_DATABASE values in .env file."
+        msg = "Neo4j connection failed. Check the NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD values in .env file."
         connected = False
 
         if TestEnvironment.skip_neo4j_test:
@@ -102,14 +89,11 @@ class TestEnvironment(unittest.TestCase):
                 driver.execute_query("RETURN true", database_=os.getenv('NEO4J_DATABASE'))
                 connected = True
             except Exception:
-                msg = "Neo4j database query failed. Check the NEO4J_DATABASE value in .env file."
+                msg = "Neo4j database query failed. Check the NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD values in .env file."
         except Exception:
             msg = "Neo4j verify connection failed. Check the NEO4J_URI, NEO4J_USERNAME, and NEO4J_PASSWORD values in .env file."
 
         driver.close()
-
-        if connected:
-            TestEnvironment.skip_memory_test = False
 
         self.assertTrue(connected, msg)
 
@@ -121,30 +105,7 @@ class TestEnvironment(unittest.TestCase):
             installed = False
         self.assertTrue(
             installed,
-            "neo4j-agent-memory not installed. Run: pip install neo4j-agent-memory")
-
-    def test_memory_schema_initialised(self):
-        if TestEnvironment.skip_memory_test:
-            self.skipTest("Skipping memory schema test")
-
-        from neo4j import GraphDatabase
-
-        driver = GraphDatabase.driver(
-            os.getenv('NEO4J_URI'),
-            auth=(os.getenv('NEO4J_USERNAME'),
-                  os.getenv('NEO4J_PASSWORD'))
-        )
-        records, _, _ = driver.execute_query(
-            "SHOW VECTOR INDEXES YIELD name RETURN collect(name) AS names",
-            database_=os.getenv('NEO4J_DATABASE'),
-        )
-        driver.close()
-
-        missing = MEMORY_VECTOR_INDEXES - set(records[0]["names"])
-        self.assertFalse(
-            missing,
-            f"Memory schema not initialised (missing vector indexes: {missing}). "
-            "Load the workshop database dump, or run agent.py once you reach module 2.")
+            "neo4j-agent-memory not installed. Run: pip install \"neo4j-agent-memory[openai,pydantic-ai]\"")
 
 
 def suite():
@@ -156,7 +117,6 @@ def suite():
     suite.addTest(TestEnvironment('test_openai_connection'))
     suite.addTest(TestEnvironment('test_neo4j_connection'))
     suite.addTest(TestEnvironment('test_agent_memory_installed'))
-    suite.addTest(TestEnvironment('test_memory_schema_initialised'))
     return suite
 
 
