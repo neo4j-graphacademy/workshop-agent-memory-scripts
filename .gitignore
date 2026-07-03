@@ -1,0 +1,14 @@
+# Secrets - copy example.env to .env and fill in your values
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Local backups
+*.bak
+.env.*
