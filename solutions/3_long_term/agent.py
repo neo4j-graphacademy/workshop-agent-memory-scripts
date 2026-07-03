@@ -1,7 +1,4 @@
-# Solution - module 3: long-term memory tools added.
-# The agent at the end of module 3: deps architecture, dynamic system prompt,
-# the four memory tools - search_messages, search_entities, save_preference,
-# and recall_preferences - and the save_fact grant from the facts lesson.
+# Solution - module 3: the memory tools and save_fact added.
 
 import asyncio
 import logging
@@ -114,13 +111,7 @@ memory_settings = MemorySettings(
         password=os.environ["NEO4J_PASSWORD"],
     ),
     embedding=EmbeddingConfig(api_key=os.environ["OPENAI_API_KEY"]),
-    extraction=ExtractionConfig(
-        extractor_type=ExtractorType.LLM,
-        entity_types=[
-            "PERSON", "ORGANIZATION", "LOCATION", "EVENT", "OBJECT",
-            "ACTIVITY",
-        ],
-    ),
+    extraction=ExtractionConfig(extractor_type=ExtractorType.LLM),
 )
 
 
@@ -215,10 +206,16 @@ async def main():
             while True:
                 try:
                     user_input = input("you> ").strip()
-                except EOFError:
+                except (EOFError, KeyboardInterrupt):
                     break
                 if not user_input or user_input.lower() in {"exit", "quit"}:
                     break
+
+                # Store the learner's message first, so even a failed turn
+                # leaves a complete record.
+                await memory.short_term.add_message(
+                    SESSION_ID, "user", user_input, user_identifier=USER_ID,
+                )
 
                 # Fresh dependencies each turn, carrying the current query
                 # for the dynamic system prompt.
@@ -227,12 +224,6 @@ async def main():
                     user_id=USER_ID,
                     session_id=SESSION_ID,
                     current_query=user_input,
-                )
-
-                # Store the learner's message first, so even a failed turn
-                # leaves a complete record.
-                await memory.short_term.add_message(
-                    SESSION_ID, "user", user_input, user_identifier=USER_ID,
                 )
 
                 result = await agent.run(user_input, deps=deps)
@@ -248,4 +239,7 @@ async def main():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        pass

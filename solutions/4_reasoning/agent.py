@@ -1,7 +1,4 @@
-# Solution - module 4: reasoning memory recorded.
-# The agent through the reasoning module: deps architecture, dynamic system
-# prompt, the hand-written memory tools, save_fact, and a trace
-# around every turn - opened before the run, closed by either ending.
+# Solution - module 4: a reasoning trace around every turn.
 
 import asyncio
 import logging
@@ -119,13 +116,7 @@ memory_settings = MemorySettings(
         password=os.environ["NEO4J_PASSWORD"],
     ),
     embedding=EmbeddingConfig(api_key=os.environ["OPENAI_API_KEY"]),
-    extraction=ExtractionConfig(
-        extractor_type=ExtractorType.LLM,
-        entity_types=[
-            "PERSON", "ORGANIZATION", "LOCATION", "EVENT", "OBJECT",
-            "ACTIVITY",
-        ],
-    ),
+    extraction=ExtractionConfig(extractor_type=ExtractorType.LLM),
 )
 
 
@@ -245,7 +236,7 @@ async def main():
             while True:
                 try:
                     user_input = input("you> ").strip()
-                except EOFError:
+                except (EOFError, KeyboardInterrupt):
                     break
                 if not user_input or user_input.lower() in {"exit", "quit"}:
                     break
@@ -289,4 +280,7 @@ async def main():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        pass

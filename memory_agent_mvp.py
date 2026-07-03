@@ -1,19 +1,6 @@
-# The same agent as agent_no_memory.py - same three tools, same knowledge graph -
-# but with neo4j-agent-memory added: deps architecture, dynamic system prompt,
-# the hand-written memory tools (search_messages, search_entities,
-# save_preference, recall_preferences, save_fact, how_did_i_handle,
-# find_similar_attendees, record_connection), and a trace around every turn.
-#
-# Because it persists to Neo4j, it remembers across turns AND across runs.
-# Quit, start it again, and it still knows what you told it. Compare that to
-# agent_no_memory.py, which forgets the moment you restart it.
-#
-# For the workshop, its memory lives in a shared instance (the MVP_NEO4J_*
-# credentials, provided by your instructor), so everyone's memory lands in one
-# graph - that is what lets it find others in the group. Its session and user
-# ids come from the environment, so each attendee lands there under their own
-# identity. Its knowledge-graph tools use your own instance (the NEO4J_*
-# credentials) throughout.
+# The finished memory agent: agent_no_memory.py plus neo4j-agent-memory.
+# Its memory lives in the shared workshop instance (MVP_NEO4J_*), and its
+# session and user ids come from the environment.
 
 import asyncio
 import logging
@@ -303,7 +290,7 @@ async def main():
             while True:
                 try:
                     user_input = input("you> ").strip()
-                except EOFError:
+                except (EOFError, KeyboardInterrupt):
                     break
                 if not user_input or user_input.lower() in {"exit", "quit"}:
                     break
@@ -347,4 +334,7 @@ async def main():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        pass

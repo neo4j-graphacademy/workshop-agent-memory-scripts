@@ -1,15 +1,5 @@
-# The starting agent - PydanticAI, no memory.
-#
-# This is the PydanticAI twin of the agent built in the GenAI workshop: the same
-# three tools, the same neo4j-graphrag retrievers, only the agent framework
-# changes (LangChain -> PydanticAI).
-#   1. get_schema           - the graph's structure, via the driver
-#   2. search_lesson_content - GraphRAG: VectorCypherRetriever (vector + graph)
-#   3. query_database        - Text2CypherRetriever (natural language -> Cypher)
-#
-# It holds the conversation within a single run, so it follows along while you
-# talk to it. But it persists nothing: quit and start it again, and it remembers
-# none of the previous session. Adding that memory is the rest of the workshop.
+# The starting agent - the GenAI workshop's three-tool GraphRAG agent, rebuilt
+# with PydanticAI. No persistent memory: quit it, and it forgets everything.
 
 import asyncio
 import logging
@@ -124,7 +114,7 @@ async def main():
         while True:
             try:
                 user_input = input("you> ").strip()
-            except EOFError:
+            except (EOFError, KeyboardInterrupt):
                 break
             if not user_input or user_input.lower() in {"exit", "quit"}:
                 break
@@ -137,4 +127,7 @@ async def main():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        pass

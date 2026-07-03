@@ -152,16 +152,16 @@ async def main():
         while True:
             try:
                 user_input = input("you> ").strip()
-            except EOFError:
+            except (EOFError, KeyboardInterrupt):
                 break
             if not user_input or user_input.lower() in {"exit", "quit"}:
                 break
 
-            # --- Short-term memory (module 2, lesson 2): build the turn's deps
-            #     here, and store the user's message before the agent runs.
+            # --- Short-term memory (module 2, lesson 2): store the user's
+            #     message here, then build the turn's deps.
 
-            # --- Reasoning (module 4, lesson 1): open the trace before the
-            #     attempt - either ending closes it.
+            # --- Reasoning (module 4, lesson 1): open the trace between the
+            #     stored message and the deps build - either ending closes it.
 
             result = await agent.run(user_input, message_history=history)
             print(f"\nagent> {result.output}\n")
@@ -175,4 +175,7 @@ async def main():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        pass

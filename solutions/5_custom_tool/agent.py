@@ -1,11 +1,6 @@
-# Solution - module 5: the completed agent.
-# The full memory agent: deps architecture, dynamic system prompt, the
-# hand-written memory tools (search_messages, search_entities, save_preference,
-# recall_preferences, save_fact, how_did_i_handle, find_similar_attendees,
-# record_connection), and a trace around every turn. Identical to
-# memory_agent_mvp.py, except the MVP's memory lives in the shared workshop
-# instance (the MVP_NEO4J_* credentials) and its session and user ids come
-# from the environment, so each attendee lands there under their own identity.
+# Solution - module 5: the completed agent. Identical to memory_agent_mvp.py,
+# except the MVP's memory lives in the shared workshop instance and its ids
+# come from the environment.
 
 import asyncio
 import logging
@@ -123,13 +118,7 @@ memory_settings = MemorySettings(
         password=os.environ["NEO4J_PASSWORD"],
     ),
     embedding=EmbeddingConfig(api_key=os.environ["OPENAI_API_KEY"]),
-    extraction=ExtractionConfig(
-        extractor_type=ExtractorType.LLM,
-        entity_types=[
-            "PERSON", "ORGANIZATION", "LOCATION", "EVENT", "OBJECT",
-            "ACTIVITY",
-        ],
-    ),
+    extraction=ExtractionConfig(extractor_type=ExtractorType.LLM),
 )
 
 
@@ -288,7 +277,7 @@ async def main():
             while True:
                 try:
                     user_input = input("you> ").strip()
-                except EOFError:
+                except (EOFError, KeyboardInterrupt):
                     break
                 if not user_input or user_input.lower() in {"exit", "quit"}:
                     break
@@ -332,4 +321,7 @@ async def main():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        pass
