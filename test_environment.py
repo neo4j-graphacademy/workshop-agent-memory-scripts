@@ -43,11 +43,17 @@ class TestEnvironment(unittest.TestCase):
 
     def test_memory_workspace_variables(self):
         if TestEnvironment.skip_env_variable_tests:
-            self.skipTest("Skipping memory workspace env variables test")
+            self.skipTest("Skipping shared instance env variables test")
 
         self.assertIsNotNone(
-            os.getenv('MEMORY_API_KEY'),
-            "MEMORY_API_KEY not found in .env file - your instructor provides the shared workspace key.")
+            os.getenv('MVP_NEO4J_URI'),
+            "MVP_NEO4J_URI not found in .env file - your instructor provides the shared instance values.")
+        self.assertIsNotNone(
+            os.getenv('MVP_NEO4J_USERNAME'),
+            "MVP_NEO4J_USERNAME not found in .env file - your instructor provides the shared instance values.")
+        self.assertIsNotNone(
+            os.getenv('MVP_NEO4J_PASSWORD'),
+            "MVP_NEO4J_PASSWORD not found in .env file - your instructor provides the shared instance values.")
         self.assertIsNotNone(
             os.getenv('MVP_SESSION_ID'),
             "MVP_SESSION_ID not found in .env file - set it to your name.")
@@ -107,6 +113,28 @@ class TestEnvironment(unittest.TestCase):
             installed,
             "neo4j-agent-memory not installed. Run: pip install \"neo4j-agent-memory[openai,pydantic-ai]\"")
 
+    def test_memory_workspace_connection(self):
+        if TestEnvironment.skip_env_variable_tests or not os.getenv('MVP_NEO4J_URI'):
+            self.skipTest("Skipping shared instance connection test")
+
+        from neo4j import GraphDatabase
+
+        msg = ""
+        try:
+            driver = GraphDatabase.driver(
+                os.getenv('MVP_NEO4J_URI'),
+                auth=(os.getenv('MVP_NEO4J_USERNAME'),
+                      os.getenv('MVP_NEO4J_PASSWORD'))
+            )
+            driver.verify_connectivity()
+            driver.close()
+            connected = True
+        except Exception as error:
+            connected = False
+            msg = (f"Shared instance connection failed ({error}). "
+                   "Check the MVP_NEO4J_* values in .env file.")
+        self.assertTrue(connected, msg)
+
 
 def suite():
     suite = unittest.TestSuite()
@@ -117,6 +145,7 @@ def suite():
     suite.addTest(TestEnvironment('test_openai_connection'))
     suite.addTest(TestEnvironment('test_neo4j_connection'))
     suite.addTest(TestEnvironment('test_agent_memory_installed'))
+    suite.addTest(TestEnvironment('test_memory_workspace_connection'))
     return suite
 
 

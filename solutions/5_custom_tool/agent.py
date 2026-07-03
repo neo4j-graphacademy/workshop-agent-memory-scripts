@@ -3,9 +3,9 @@
 # hand-written memory tools (search_messages, search_entities, save_preference,
 # recall_preferences, save_fact, how_did_i_handle, find_similar_attendees,
 # record_connection), and a trace around every turn. Identical to
-# memory_agent_mvp.py, except the MVP's memory lives in the hosted shared
-# workspace (MEMORY_API_KEY) and its session and user ids come from the
-# environment, so each attendee lands there under their own identity.
+# memory_agent_mvp.py, except the MVP's memory lives in the shared workshop
+# instance (the MVP_NEO4J_* credentials) and its session and user ids come
+# from the environment, so each attendee lands there under their own identity.
 
 import asyncio
 import logging

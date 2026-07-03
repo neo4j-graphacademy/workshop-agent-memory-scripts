@@ -13,15 +13,14 @@ cp example.env .env   # then fill in your values
 python test_environment.py
 ```
 
-Every check should pass or be skipped before you start. Your instructor provides the shared `MEMORY_API_KEY` on the day.
+Every check should pass or be skipped before you start. Your instructor provides the shared instance values (`MVP_NEO4J_*`) on the day.
 
 ## The files, in workshop order
 
 | File | Used in | What it is |
 | --- | --- | --- |
-| `nams_quickstart.py` | Module 1 | Your first memory, stored in the hosted workspace |
 | `agent_no_memory.py` | Module 1 | The starting agent — it forgets everything on restart |
-| `memory_agent_mvp.py` | Module 1 | The finished memory agent, on the shared workspace |
+| `memory_agent_mvp.py` | Module 1 | The finished memory agent, on the shared workshop instance |
 | `agent.py` | Modules 2-5 | **The file you build.** Starts as a copy of `agent_no_memory.py`; the marked sections fill in one memory layer at a time until it matches the MVP |
 | `complete_memory_api.ipynb` | Modules 2-4 (optional) | The API tour notebook — every memory surface, one cell at a time |
 | `solutions/` | Modules 2-5 | `agent.py` as it should look at the end of each module |

@@ -1,23 +1,19 @@
 # The same agent as agent_no_memory.py - same three tools, same knowledge graph -
-# but with neo4j-agent-memory added, in the package's documented shape:
-#   - AgentDeps carries the memory client, user_id, session_id, and the
-#     current query into every tool and prompt
-#   - a dynamic system prompt reads get_context into every turn
-#   - add_message stores the user's message before the run and the answer
-#     after, each carrying the user's identity
-#   - a trace opens before every run, and either ending closes it
-#   - every memory tool is a custom @agent.tool of our own: search_messages,
-#     search_entities, save_preference, recall_preferences, save_fact,
-#     how_did_i_handle, find_similar_attendees, and record_connection
+# but with neo4j-agent-memory added: deps architecture, dynamic system prompt,
+# the hand-written memory tools (search_messages, search_entities,
+# save_preference, recall_preferences, save_fact, how_did_i_handle,
+# find_similar_attendees, record_connection), and a trace around every turn.
 #
-# Because it persists to Neo4j, it remembers across turns AND across runs. Quit,
-# start it again, and it still knows what you told it. Compare that to
+# Because it persists to Neo4j, it remembers across turns AND across runs.
+# Quit, start it again, and it still knows what you told it. Compare that to
 # agent_no_memory.py, which forgets the moment you restart it.
 #
-# For the workshop, its memory lives in a shared hosted workspace (NAMS, via
-# MEMORY_API_KEY), so everyone's memory lands in one graph - that is what lets it
-# find others in the group. Embedding and extraction run server-side there. Its
-# knowledge-graph tools still use your own instance (the NEO4J_* credentials).
+# For the workshop, its memory lives in a shared instance (the MVP_NEO4J_*
+# credentials, provided by your instructor), so everyone's memory lands in one
+# graph - that is what lets it find others in the group. Its session and user
+# ids come from the environment, so each attendee lands there under their own
+# identity. Its knowledge-graph tools use your own instance (the NEO4J_*
+# credentials) throughout.
 
 import asyncio
 import logging
@@ -32,14 +28,20 @@ from neo4j_graphrag.embeddings.openai import OpenAIEmbeddings
 from neo4j_graphrag.llm import OpenAILLM
 from neo4j_graphrag.retrievers import Text2CypherRetriever, VectorCypherRetriever
 
-from neo4j_agent_memory import MemoryClient
+from neo4j_agent_memory import MemoryClient, MemorySettings
+from neo4j_agent_memory.config import (
+    Neo4jConfig,
+    EmbeddingConfig,
+    ExtractionConfig,
+    ExtractorType,
+)
 
 load_dotenv()
 
-if not os.getenv("MEMORY_API_KEY"):
+if not os.getenv("MVP_NEO4J_URI"):
     raise SystemExit(
-        "MEMORY_API_KEY is not set - the MVP's memory lives in the shared workshop "
-        "workspace. Add the key from module 1 to your .env."
+        "MVP_NEO4J_URI is not set - the MVP's memory lives in the shared "
+        "workshop instance. Add the MVP_NEO4J_* values from module 1 to your .env."
     )
 
 # Silence the driver's deprecation notices for the vector-index queries.
@@ -127,8 +129,23 @@ async def query_database(ctx: RunContext[AgentDeps], query: str) -> list:
 
 
 # --- Memory ------------------------------------------------------------------
-# No MemorySettings here: with MEMORY_API_KEY set, MemoryClient() picks the
-# hosted backend, and embedding and extraction are managed server-side.
+# The shared workshop instance: everyone's memory in one graph.
+
+memory_settings = MemorySettings(
+    neo4j=Neo4jConfig(
+        uri=os.environ["MVP_NEO4J_URI"],
+        username=os.environ["MVP_NEO4J_USERNAME"],
+        password=os.environ["MVP_NEO4J_PASSWORD"],
+    ),
+    embedding=EmbeddingConfig(api_key=os.environ["OPENAI_API_KEY"]),
+    extraction=ExtractionConfig(
+        extractor_type=ExtractorType.LLM,
+        entity_types=[
+            "PERSON", "ORGANIZATION", "LOCATION", "EVENT", "OBJECT",
+            "ACTIVITY",
+        ],
+    ),
+)
 
 
 # The agent's dependencies: everything a tool or prompt needs at run time.
@@ -278,7 +295,7 @@ async def record_connection(ctx: RunContext[AgentDeps], source: str, target: str
 
 
 async def main():
-    async with MemoryClient() as memory:
+    async with MemoryClient(memory_settings) as memory:
         print("Agent ready - now with memory. Ask about the course, or tell me about yourself.")
         print("Type 'exit' (or Ctrl-D) to quit.\n")
 

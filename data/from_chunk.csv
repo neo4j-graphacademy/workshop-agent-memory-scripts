@@ -1509,25 +1509,6 @@ Resource,KG Builder Documentation,/Users/t6w652j6ft/Documents/GitHub/workshop-ag
 Resource,copy of each per run,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_2-short-term-memory_3-the-short-term-memory-api.pdf,38
 Resource,sessions,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_2-short-term-memory_3-the-short-term-memory-api.pdf,38
 Technology,Neo4jGraph,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_2-short-term-memory_3-the-short-term-memory-api.pdf,39
-Technology,MemoryClient,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-five-minute-quickstart.pdf,3
-Resource,HTTPS requests,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-five-minute-quickstart.pdf,3
-Technology,Neo4j,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-five-minute-quickstart.pdf,6
-Resource,memory,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-five-minute-quickstart.pdf,6
-Process,setup,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-five-minute-quickstart.pdf,6
-Technology,Neo4j,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-five-minute-quickstart.pdf,0
-Resource,Neo4j Documentation,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-five-minute-quickstart.pdf,0
-Process,Data Modeling,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-five-minute-quickstart.pdf,0
-Concept,Graph Database,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-five-minute-quickstart.pdf,0
-Technology,Neo4j,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-five-minute-quickstart.pdf,1
-Resource,Neo4j Agent Memory Service,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-five-minute-quickstart.pdf,1
-Process,Neo4j database operates by Neo4j,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-five-minute-quickstart.pdf,1
-Resource,HTTPS,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-five-minute-quickstart.pdf,5
-Resource,MEMORY_API_KEY,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-five-minute-quickstart.pdf,5
-Resource,Neo4j,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-five-minute-quickstart.pdf,5
-Process,embedding,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-five-minute-quickstart.pdf,5
-Technology,Hosted-backend client,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-five-minute-quickstart.pdf,5
-Technology,Neo4j,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-five-minute-quickstart.pdf,7
-Concept,knowledge graph,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-five-minute-quickstart.pdf,7
 Technology,MemoryClient,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_2-short-term-memory_1-configure-the-memory-client.pdf,14
 Resource,Neo4j,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_2-short-term-memory_1-configure-the-memory-client.pdf,14
 Resource,Memory Client documentation,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_2-short-term-memory_1-configure-the-memory-client.pdf,0
@@ -1554,31 +1535,31 @@ Technology,ExtractionConfig,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-me
 Resource,NEO4J_URI,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_2-short-term-memory_1-configure-the-memory-client.pdf,6
 Process,ExtractionConfig,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_2-short-term-memory_1-configure-the-memory-client.pdf,9
 Technology,ExtractionConfig,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_2-short-term-memory_1-configure-the-memory-client.pdf,9
-Technology,Knowledge Graph Extraction,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_5-the-same-agent-with-memory.pdf,3
-Process,Save preferences,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_5-the-same-agent-with-memory.pdf,7
-Resource,save_fact,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_5-the-same-agent-with-memory.pdf,7
-Technology,Memory,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_5-the-same-agent-with-memory.pdf,7
-Technology,AI agents,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_5-the-same-agent-with-memory.pdf,8
-Concept,memory,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_5-the-same-agent-with-memory.pdf,8
-Technology,Neo4j,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_5-the-same-agent-with-memory.pdf,1
-Resource,documentation,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_5-the-same-agent-with-memory.pdf,1
-Technology,Knowledge Graph,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_5-the-same-agent-with-memory.pdf,5
-Technology,Neo4j,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_5-the-same-agent-with-memory.pdf,11
-Technology,graph database,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_5-the-same-agent-with-memory.pdf,11
-Technology,Neo4j,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_5-the-same-agent-with-memory.pdf,4
-Technology,A few people worth finding,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_5-the-same-agent-with-memory.pdf,9
-Technology,Knowledge Graph Extraction Tool,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_5-the-same-agent-with-memory.pdf,2
-Technology,Memory,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_5-the-same-agent-with-memory.pdf,10
-Technology,context graph,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_5-the-same-agent-with-memory.pdf,12
-Technology,Knowledge Graph,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-an-agent-that-forgets.pdf,1
-Technology,Agent Memory System,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-an-agent-that-forgets.pdf,0
-Resource,Workshop text,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-an-agent-that-forgets.pdf,0
-Technology,Neo4j,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-an-agent-that-forgets.pdf,5
-Resource,neo4j-agent-memory,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-an-agent-that-forgets.pdf,5
-Concept,Latitude and Longitude,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-an-agent-that-forgets.pdf,3
-Technology,GeoPoint,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-an-agent-that-forgets.pdf,3
-Resource,Geographic Coordinate System,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-an-agent-that-forgets.pdf,3
-Technology,knowledge graph,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-an-agent-that-forgets.pdf,4
+Technology,Knowledge Graph Extraction,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-the-same-agent-with-memory.pdf,3
+Process,Save preferences,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-the-same-agent-with-memory.pdf,7
+Resource,save_fact,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-the-same-agent-with-memory.pdf,7
+Technology,Memory,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-the-same-agent-with-memory.pdf,7
+Technology,AI agents,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-the-same-agent-with-memory.pdf,8
+Concept,memory,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-the-same-agent-with-memory.pdf,8
+Technology,Neo4j,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-the-same-agent-with-memory.pdf,1
+Resource,documentation,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-the-same-agent-with-memory.pdf,1
+Technology,Knowledge Graph,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-the-same-agent-with-memory.pdf,5
+Technology,Neo4j,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-the-same-agent-with-memory.pdf,11
+Technology,graph database,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-the-same-agent-with-memory.pdf,11
+Technology,Neo4j,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-the-same-agent-with-memory.pdf,4
+Technology,A few people worth finding,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-the-same-agent-with-memory.pdf,9
+Technology,Knowledge Graph Extraction Tool,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-the-same-agent-with-memory.pdf,2
+Technology,Memory,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-the-same-agent-with-memory.pdf,10
+Technology,context graph,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_4-the-same-agent-with-memory.pdf,12
+Technology,Knowledge Graph,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-an-agent-that-forgets.pdf,1
+Technology,Agent Memory System,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-an-agent-that-forgets.pdf,0
+Resource,Workshop text,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-an-agent-that-forgets.pdf,0
+Technology,Neo4j,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-an-agent-that-forgets.pdf,5
+Resource,neo4j-agent-memory,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-an-agent-that-forgets.pdf,5
+Concept,Latitude and Longitude,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-an-agent-that-forgets.pdf,3
+Technology,GeoPoint,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-an-agent-that-forgets.pdf,3
+Resource,Geographic Coordinate System,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-an-agent-that-forgets.pdf,3
+Technology,knowledge graph,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-an-agent-that-forgets.pdf,4
 Technology,Agent,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_2-short-term-memory_2-add-short-term-memory-to-your-agent.pdf,7
 Resource,Neo4j,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_2-short-term-memory_2-add-short-term-memory-to-your-agent.pdf,13
 Technology,Graph Database,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_2-short-term-memory_2-add-short-term-memory-to-your-agent.pdf,13
@@ -1724,29 +1705,29 @@ Concept,Knowledge Graph,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory
 Technology,Entity Extraction,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_3-long-term-memory_2-entities-and-relationships.pdf,9
 Technology,Extraction,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_3-long-term-memory_2-entities-and-relationships.pdf,11
 Resource,Embedding,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_3-long-term-memory_2-entities-and-relationships.pdf,11
-Technology,driver.close(),/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-the-agent-you-built.pdf,13
-Technology,semantic search,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-the-agent-you-built.pdf,11
-Resource,schema,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-the-agent-you-built.pdf,11
-Process,PDF_OF,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-the-agent-you-built.pdf,5
-Technology,CUMENT,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-the-agent-you-built.pdf,5
-Resource,PDF,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-the-agent-you-built.pdf,5
-Technology,VectorCypherRetriever,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-the-agent-you-built.pdf,6
-Technology,graph entity extraction,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-the-agent-you-built.pdf,9
-Resource,Utilities,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-the-agent-you-built.pdf,15
-Technology,Agent,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-the-agent-you-built.pdf,15
-Process,start the agent with the command,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-the-agent-you-built.pdf,15
-Resource,Resource,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-the-agent-you-built.pdf,16
-Concept,Concept,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-the-agent-you-built.pdf,16
-Technology,Technology,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-the-agent-you-built.pdf,16
-Process,Process,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-the-agent-you-built.pdf,16
-Challenge,Challenge,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-the-agent-you-built.pdf,16
-Example,Example,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-the-agent-you-built.pdf,16
-Benefit,Benefit,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-the-agent-you-built.pdf,16
-Technology,GPT-5.2,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-the-agent-you-built.pdf,4
-Resource,neo4j,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-the-agent-you-built.pdf,3
-Technology,vector-index queries,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-the-agent-you-built.pdf,3
-Resource,LangChain,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-the-agent-you-built.pdf,0
-Technology,GenAI workshop,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_3-the-agent-you-built.pdf,0
+Technology,driver.close(),/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-the-agent-you-built.pdf,13
+Technology,semantic search,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-the-agent-you-built.pdf,11
+Resource,schema,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-the-agent-you-built.pdf,11
+Process,PDF_OF,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-the-agent-you-built.pdf,5
+Technology,CUMENT,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-the-agent-you-built.pdf,5
+Resource,PDF,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-the-agent-you-built.pdf,5
+Technology,VectorCypherRetriever,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-the-agent-you-built.pdf,6
+Technology,graph entity extraction,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-the-agent-you-built.pdf,9
+Resource,Utilities,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-the-agent-you-built.pdf,15
+Technology,Agent,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-the-agent-you-built.pdf,15
+Process,start the agent with the command,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-the-agent-you-built.pdf,15
+Resource,Resource,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-the-agent-you-built.pdf,16
+Concept,Concept,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-the-agent-you-built.pdf,16
+Technology,Technology,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-the-agent-you-built.pdf,16
+Process,Process,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-the-agent-you-built.pdf,16
+Challenge,Challenge,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-the-agent-you-built.pdf,16
+Example,Example,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-the-agent-you-built.pdf,16
+Benefit,Benefit,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-the-agent-you-built.pdf,16
+Technology,GPT-5.2,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-the-agent-you-built.pdf,4
+Resource,neo4j,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-the-agent-you-built.pdf,3
+Technology,vector-index queries,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-the-agent-you-built.pdf,3
+Resource,LangChain,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-the-agent-you-built.pdf,0
+Technology,GenAI workshop,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_1-introduction_2-the-agent-you-built.pdf,0
 Technology,find_potential_duplicates,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_3-long-term-memory_3-deduplication.pdf,5
 Resource,Shakespeare,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_3-long-term-memory_3-deduplication.pdf,5
 Technology,graph,/Users/t6w652j6ft/Documents/GitHub/workshop-agent-memory-scripts/kg/data/workshop-agent-memory_3-long-term-memory_3-deduplication.pdf,0
